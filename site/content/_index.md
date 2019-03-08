@@ -1,6 +1,8 @@
 ---
-title: "Great coffee with a conscience"
-subtitle: Support sustainable farming while enjoying a cup
+title: "Jacob Hammond - Product Designer"
+description: A digital product designer working in London, UK. He focusses on native mobile and responsive web experiences.
+headertitle: I'm Jacob — A Product Design Lead working in London, UK. I focus on native mobile and responsive web experiences.
+headersub: Currently I’m busy reinventing retirement and running Precise Pixels.
 image: /img/home-jumbotron.jpg
 blurb:
     heading: Why Kaldi?

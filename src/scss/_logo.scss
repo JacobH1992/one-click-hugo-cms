@@ -1,0 +1,99 @@
+.logo {
+	display: inline-block;
+	text-align: center;
+	line-height: 68px;
+	color: $white;
+	width: 68px;
+	height: 68px;
+	position: relative;
+	border-bottom: 0;
+}
+
+.logo-text {
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	font-weight: $font-weight-bold;
+}
+
+.logo span {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(45,156,219,.75);
+	transition: all .3s;
+	&:nth-child(2) {
+		animation:
+			width random(3000)+3000+ms ease-in-out alternate infinite,
+			height random(3000)+3000+ms ease-in-out alternate infinite,
+			border-tl random(2000)+3000+ms ease-in-out alternate infinite,
+			border-tr random(2000)+3000+ms ease-in-out alternate infinite,
+			border-bl random(2000)+3000+ms ease-in-out alternate infinite,
+			border-br random(2000)+3000+ms ease-in-out alternate infinite,
+			rotate-ccw random(40)+40+s linear infinite;
+	}
+	&:nth-child(3) {
+		animation:
+			width random(3000)+3000+ms ease-in-out alternate infinite,
+			height random(3000)+3000+ms ease-in-out alternate infinite,
+			border-tl random(2000)+3000+ms ease-in-out alternate infinite,
+			border-tr random(2000)+3000+ms ease-in-out alternate infinite,
+			border-bl random(2000)+3000+ms ease-in-out alternate infinite,
+			border-br random(2000)+3000+ms ease-in-out alternate infinite,
+			rotate-cw random(40)+40+s linear infinite;
+	}
+	&:nth-child(4) {
+		animation:
+			width random(3000)+3000+ms ease-in-out alternate infinite,
+			height random(3000)+3000+ms ease-in-out alternate infinite,
+			border-tl random(2000)+3000+ms ease-in-out alternate infinite,
+			border-tr random(2000)+3000+ms ease-in-out alternate infinite,
+			border-bl random(2000)+3000+ms ease-in-out alternate infinite,
+			border-br random(2000)+3000+ms ease-in-out alternate infinite,
+			rotate-ccw random(40)+40+s linear infinite;
+	}
+}
+
+@keyframes width {
+	0% { width: 85%; }
+	100% { width: 100%; }
+}
+
+@keyframes height {
+	0% { height: 100%; }
+	100% { height: 85%; }
+}
+
+@keyframes rotate-cw {
+	0% { transform: rotateZ(0deg); -webkit-transform: rotateZ(0deg); }
+	100% { transform:rotateZ(360deg); -webkit-transform: rotateZ(360deg); }
+}
+
+@keyframes rotate-ccw {
+	0% { transform: rotateZ(0deg); -webkit-transform: rotateZ(0deg); }
+	100% { transform: rotateZ(-360deg); -webkit-transform: rotateZ(-360deg); }
+}
+
+@function randRadius() {
+	@return random(30)+40 * 1%;
+}
+
+@keyframes border-tl {
+	0% { border-top-left-radius: randRadius(); }
+	100% { border-top-left-radius: randRadius(); }
+}
+
+@keyframes border-tr {
+	0% { border-top-right-radius: randRadius(); }
+	100% { border-top-right-radius: randRadius(); }
+}
+
+@keyframes border-bl {
+	0% { border-bottom-left-radius: randRadius(); }
+	100% { border-bottom-left-radius: randRadius(); }
+}
+
+@keyframes border-br {
+	0% { border-bottom-right-radius: randRadius(); }
+	100% { border-bottom-right-radius: randRadius(); }
+}

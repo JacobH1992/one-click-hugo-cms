@@ -1,15 +1,25 @@
 {{ define "main" }}
 
-{{ partial "indexHeader" .Params }}
+{{ with .Params.header }}
+<div class="header container container-pad">
+  <div class="row col-lg-10 offset-lg-1">
+    <h1>{{ .heading }}</h1>
+    <h2>{{ .subheading }}</h2>
+  </div>
+</div>
+{{ end }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+{{/* partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") */}}
 
-{{ partial "short-text" .Params.blurb}}
+{{ partial "short-text" .Params.about }}
 
-{{ partial "2-up" .Params }}
+<div class="container container-pad">
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+  {{ partial "blog" . }}
 
-{{ partial "blog" . }}
+  {{/* .Content */}}
 
+  {{/*  partial "2-up" .Params */}}
+
+</div>
 {{ end }}

@@ -1,3 +1,18 @@
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1280px
+);
+
+$container-max-widths: (
+  sm: 576px,
+  md: 860px,
+  lg: 1024px,
+  xl: 1280px
+);
+
 // @import "node_modules/bootstrap/scss/bootstrap";
 
 // Required
@@ -42,4 +57,6 @@
 // @import "node_modules/bootstrap/scss/print";
 
 // //Custom
-@import "main.scss"
+@import "main.scss";
+@import "typography.scss";
+@import "logo.scss"

@@ -1,9 +1,10 @@
-<h2>Work</h2>
-
-	{{ range first 4 (where .Data.Pages "Type" "post") }}
-			{{ .Render "li" }}
-	{{ end }}
-
-<div>
-	<a href="/post">Read more</a>
+<div class="container container-pad">
+	<div class="row">
+		{{ range first 2 (where .Data.Pages "Type" "post") }}
+				{{ .Render "li" }}
+		{{ end }}
+	</div>
+	<div>
+		<a href="/post">See more of my work</a>
+	</div>
 </div>

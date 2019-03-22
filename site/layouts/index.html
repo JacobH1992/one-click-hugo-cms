@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 {{ with .Params.header }}
-<div class="header container container-pad">
+<div class="header container container-pad" data-lax-opacity="0 1, vh 0">
   <div class="row col-lg-10 offset-lg-1">
     <h1>{{ .heading }}</h1>
     <h2>{{ .subheading }}</h2>
@@ -11,9 +11,7 @@
 
 {{/* partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") */}}
 
-{{ partial "short-text" .Params.about }}
-
-<div class="container container-pad">
+<!-- <div class="container container-pad" data-lax-opacity="0 1, vh 0" data-lax-anchor="self"> -->
 
   {{ partial "blog" . }}
 
@@ -21,5 +19,10 @@
 
   {{/*  partial "2-up" .Params */}}
 
+<!-- </div> -->
+
+<div data-lax-opacity="0 1, vh 0" data-lax-anchor="self">
+{{ partial "short-text" .Params.about }}
 </div>
+
 {{ end }}

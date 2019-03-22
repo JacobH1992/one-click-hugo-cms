@@ -1,7 +1,14 @@
-<a href="{{ .Permalink }}" class="">
-	<img width="100%;" src="{{ .Params.image }}" alt="">
-	<h2>{{ .Title }}</h2>
-	<p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-	<p>{{ .Description }}</p>
-	<p>Read more →</p>
-</a>
+<div class="col-md-6">
+	<div class="work-card">
+		<a href="{{ .Permalink }}">
+			<div class="work-card-image" style="background-image: url('{{.Params.image}}');"></div>
+			<div class="work-card-text">
+				<h3>{{ .Title }}</h3>
+				<!-- <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p> -->
+				<!-- <p>{{ .Description }}</p> -->
+			</div>
+		</a>
+	</div>
+</div>
+
+<!-- <img src="{{ .Params.image }}" alt=""> -->

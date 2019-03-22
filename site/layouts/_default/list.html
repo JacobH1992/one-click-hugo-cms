@@ -2,12 +2,10 @@
 
 {{ partial "jumbotron" (dict "imageUrl" "/img/blog-index.jpg" "title" "Work") }}
 
-<div class="container">
+<div class="container container-pad">
   <div class="row">
-      {{ range (.Paginator 2).Pages.ByPublishDate.Reverse }}
-          <div class="col-md-4">
+      {{ range (.Paginator 8).Pages.ByPublishDate.Reverse }}
             {{ .Render "li"}}
-          </div>
       {{ end }}
     </div>
   {{ partial "pagination" . }}

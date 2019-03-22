@@ -13,6 +13,7 @@ import inject from "gulp-inject";
 import cssnano from "cssnano";
 import gulpSass from "gulp-sass";
 import autoprefixer from "autoprefixer";
+// import lax from "lax.js";
 
 const browserSync = BrowserSync.create();
 const hugoBin = `./bin/hugo.${process.platform === "win32" ? "exe" : process.platform}`;

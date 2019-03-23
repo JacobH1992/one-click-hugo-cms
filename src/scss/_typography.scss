@@ -59,9 +59,14 @@ h3 {
 .title-3 {
   font-size: 14px;
   letter-spacing: 1.4px;
-  font-weight: $font-weight-light;
+  font-weight: $font-weight-regular;
   text-transform: uppercase;
   margin-bottom: 32px;
+  padding-top: 0;
+  @include media-breakpoint-up(md) {
+    padding-top: 8px;
+  }
+
 }
 
 h3, h4, h4, h6 {
@@ -76,7 +81,7 @@ p {
   @include media-breakpoint-up(md) {
     font-size: 24px;
     line-height: 36px;
-    margin-bottom: 24px;
+    margin-bottom: 32px;
   }
 }
 

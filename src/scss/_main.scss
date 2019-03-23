@@ -21,13 +21,9 @@ body {
   background: $blue-dark;
   color: $white;
   font-family: $body-font-family;
-  font-size: 18px;
+  font-size: 100%;
 	text-rendering: optimizeLegibility;
 	font-smoothing: subpixel-antialiased;
-}
-
-.light {
-  color: $blue-dark;
 }
 
 .container, .container-fluid {
@@ -51,7 +47,7 @@ body {
   }
   @include media-breakpoint-up(xl) {
     padding-top: 120px;
-    padding-bottom: 96px;
+    padding-bottom: 56px;
   }
 }
 
@@ -107,28 +103,16 @@ nav {
     }
   }
 }
-
-// .work-title {
-// 	width: 100%;
-// 	padding: 24px 32px;
-// 	position: absolute;
-// 	bottom: 0;
-// 	// @include font-size($p-h2-font-sizes);
-// 	// font-weight: $font-weight-regular;
-// 	color: white;
-// 	background: $red-mid;
-// 	transition: all .3s;
-// 	-webkit-transition: all .3s;
-// }
 .work-cards {
-  margin-top: 80px;
+  margin-top: 120px;
 }
 
 .work-card {
   position: relative;
   background: $blue-mid;
   margin-bottom: 32px;
-  // box-shadow: 0px 8px 32px rgba(0,0,0,0.1);
+  transition: all .3s;
+  box-shadow: 0px 8px 32px rgba(0,0,0,0.1);
   overflow: hidden;
   h3 {
     margin-bottom: 0;
@@ -138,9 +122,12 @@ nav {
   }
   .work-card-image {
     width: 100%;
-    height: 340px;
+    height: 220px;
     background-size: cover;
     transition: all 1s ease-out;
+    @include media-breakpoint-up(md) {
+      height: 320px;
+    }
   }
   .work-card-text {
     width: 100%;

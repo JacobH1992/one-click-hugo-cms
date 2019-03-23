@@ -23,11 +23,44 @@ h2 {
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 1.4px;
-  font-weight: $font-weight-regular;
+  font-weight: $font-weight-light;
   text-transform: uppercase;
-  color: $white-50;
+  margin-bottom: 32px;
+}
+
+.title-1 {
+  font-family: $display-font-family;
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: $font-weight-bold;
+  margin-bottom: 24px;
+  text-transform: none;
+  @include media-breakpoint-up(md) {
+    font-size: 40px;
+    line-height: 56px;
+    margin-bottom: 48px;
+  }
+  @include media-breakpoint-up(xl) {
+    font-size: 52px;
+    line-height: 64px;
+  }
+}
+
+.title-2 {
+  font-family: $body-font-family;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: $font-weight-light;
+  text-transform: none;
+}
+
+.title-3 {
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  font-weight: $font-weight-light;
+  text-transform: uppercase;
   margin-bottom: 32px;
 }
 
@@ -43,10 +76,15 @@ p {
   @include media-breakpoint-up(md) {
     font-size: 24px;
     line-height: 36px;
+    margin-bottom: 24px;
   }
 }
 
 .p-small {
   font-size: 16px;
   line-height: 24px;
+}
+
+.text-secondary {
+  color: $white-50;
 }

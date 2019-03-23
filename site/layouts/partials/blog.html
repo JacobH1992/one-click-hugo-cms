@@ -1,10 +1,41 @@
-<div class="container container-pad">
+<div class="work-cards container container-pad">
 	<div class="row">
-		{{ range first 2 (where .Data.Pages "Type" "post") }}
-				{{ .Render "li" }}
-		{{ end }}
+		<!-- {{ range first 2 (where .Data.Pages "Type" "post") }}
+			{{ .Render "li"}}
+		{{ end }} -->
+		{{ range $i,$p := first 2 (where .Data.Pages "Type" "post") }}
+		  {{if not (modBool $i 2)}} <!--even-->
+			<div class="col-md-6">
+				<div class="work-card">
+					<a href="{{ .Permalink }}">
+						<div class="work-card-image" style="background-image: url('{{.Params.image}}');"></div>
+						<div class="work-card-text">
+							<h3 class="title-2">{{ .Title }}</h3>
+							<!-- <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p> -->
+							<!-- <p>{{ .Description }}</p> -->
+						</div>
+					</a>
+				</div>
+			</div>
+		  {{else}} <!--odd-->
+			<div class="col-md-6 work-card-odd">
+				<div class="work-card">
+					<a href="{{ .Permalink }}">
+						<div class="work-card-image" style="background-image: url('{{.Params.image}}');"></div>
+						<div class="work-card-text">
+							<h3 class="title-2">{{ .Title }}</h3>
+							<!-- <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p> -->
+							<!-- <p>{{ .Description }}</p> -->
+						</div>
+					</a>
+				</div>
+			</div>
+			{{end}}
+		{{end}}
+		<div class="col" style="text-align:right; margin-top: 16px;">
+			<a href="/post"><p>See more of my work</p></a>
+		</div>
 	</div>
 	<div>
-		<a href="/post">See more of my work</a>
 	</div>
 </div>

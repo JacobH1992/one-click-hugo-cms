@@ -3,12 +3,13 @@
 {{ partial "jumbotron" (dict "imageUrl" "/img/blog-index.jpg" "title" "Work") }}
 
 <div class="container container-pad">
-  <div class="row">
+  <div class="row work-wrapper">
       {{ range (.Paginator 8).Pages.ByPublishDate.Reverse }}
             {{ .Render "li"}}
       {{ end }}
     </div>
   {{ partial "pagination" . }}
 </div>
+
 
 {{end}}

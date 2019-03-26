@@ -20,8 +20,10 @@
     height: 220px;
     background-size: cover;
     transition: all 1s ease-out;
+    background-size: cover;
+    background-position: center bottom;
     @include media-breakpoint-up(md) {
-      height: 320px;
+      height: 340px;
     }
   }
   .work-card-text {

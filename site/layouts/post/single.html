@@ -1,15 +1,30 @@
 {{ define "main" }}
 
-  <div class="container">{{ .Params.image }}
-    <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
-    <div class="flex justify-between grey-3">
-      <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-      <p>Read in {{ .ReadingTime }} minutes</p>
+  <div class="bg-wrapper" data-lax-opacity="(vh*0.2) 1, (vh*1) 0" data-lax-translate-y="(vh*0) 0, (vh*0.8) 200">
+    <div class="bg-gradient"></div>
+    <div class="bg-post" style="background-image: url('{{ .Params.image }}');"></div>
+  </div>
+
+  <div class="container container-pad">
+    <div class="row">
+      <div class="col-lg-5 offset-lg-1">
+        <h1>{{.Title}}</h1>
+        <p class="">{{ .Description }}</p>
+      </div>
+      <div class="col-lg-5 offset-lg-1">
+        <br>
+        <h3>Role</h3>
+        <p>Product Designer</p>
+        <p>Front-End Developer</p>
+      </div>
     </div>
-    <div class="cms mw6">
-      <p>{{ .Description }}</p>
-      {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
-      {{ .Content }}
+  </div>
+  <div class="container container-pad">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        {{ .Content }}
+      </div>
     </div>
+  </div>
   </div>
 {{ end }}

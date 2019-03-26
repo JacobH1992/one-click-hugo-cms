@@ -12,7 +12,7 @@ $blue-dark: #25283D;
 $blue-mid: #262F46;
 $blue-light: #2D9CDB;
 $blue-accent: #56CCF2;
-$red-mid: #fd625e; // old #EB5757;
+$red-mid: #fd625e;
 $red-light: #EE7171;
 $yellow-mid: #F2C94C;
 $yellow-light: #F7D97D;
@@ -58,13 +58,32 @@ body {
   }
 }
 
-a {
-  font-weight: inherit;
-  color: $yellow-mid;
-  text-decoration: underline;
-  &:hover {
+a, a:visited, a:hover, a:active{
+	text-decoration: none;
+	color: $yellow-mid;
+  &:hover{
     color: $yellow-light;
   }
+}
+
+a.underline {
+  position: relative;
+  transition: .5s color ease;
+}
+
+a.underline:after{
+  content: "";
+  transition: .5s all ease;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  height: 2px;
+  width: 0;
+  background: $yellow-light;
+}
+
+a.underline:hover:after{
+  width:100%;
 }
 
 nav {
@@ -84,67 +103,27 @@ nav {
     @include media-breakpoint-up(md) {
       padding-left: 32px;
     }
-  }
-  .nav-item a {
-    color: $blue-light;
-    font-size: 16px;
-    font-weight: $font-weight-black;
-    letter-spacing: 1.2px;
-    line-height: 64px;
-    text-transform: uppercase;
-    text-decoration: none;
-    @include media-breakpoint-up(md) {
-      font-size: 18px;
+    a {
+      color: $blue-light;
+      font-size: 16px;
+      font-weight: $font-weight-black;
       letter-spacing: 1.2px;
-    }
-    &:hover {
-      color: $blue-accent;
+      line-height: 80px;
+      text-transform: uppercase;
       text-decoration: none;
+      @include media-breakpoint-up(md) {
+        font-size: 18px;
+        letter-spacing: 1.2px;
+      }
+      &:hover {
+        color: $blue-accent;
+        text-decoration: none;
+      }
+    }
+    a.underline:after{
+      background: $blue-accent;
+      height: 3px;
+      bottom: -12px;
     }
   }
-}
-.work-cards {
-  margin-top: 120px;
-}
-
-.work-card {
-  position: relative;
-  background: $blue-mid;
-  margin-bottom: 32px;
-  transition: all .3s;
-  box-shadow: 0px 8px 32px rgba(0,0,0,0.1);
-  overflow: hidden;
-  h3 {
-    margin-bottom: 0;
-  }
-  img {
-    width: 100%;
-  }
-  .work-card-image {
-    width: 100%;
-    height: 220px;
-    background-size: cover;
-    transition: all 1s ease-out;
-    @include media-breakpoint-up(md) {
-      height: 320px;
-    }
-  }
-  .work-card-text {
-    width: 100%;
-    padding: 24px 32px;
-    position: absolute;
-    bottom: 0;
-    color: white;
-    background: $red-mid;
-  }
-  &:hover {
-    // box-shadow: 0px 8px 32px rgba(0,0,0,0.2);
-    .work-card-image {
-      transform: scale(1.1);
-    }
-  }
-}
-
-.work-card-odd {
-  margin-top: -12%;
 }

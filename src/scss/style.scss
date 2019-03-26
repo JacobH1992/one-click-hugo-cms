@@ -13,6 +13,8 @@ $container-max-widths: (
   xl: 1280px
 );
 
+$grid-gutter-width: 30px;
+
 // @import "node_modules/bootstrap/scss/bootstrap";
 
 // Required
@@ -20,7 +22,7 @@ $container-max-widths: (
 @import "node_modules/bootstrap/scss/variables";
 @import "node_modules/bootstrap/scss/mixins";
 
-//Optional
+// Optional
 @import "node_modules/bootstrap/scss/root";
 @import "node_modules/bootstrap/scss/reboot";
 // @import "node_modules/bootstrap/scss/type";
@@ -56,7 +58,8 @@ $container-max-widths: (
 // @import "node_modules/bootstrap/scss/utilities";
 // @import "node_modules/bootstrap/scss/print";
 
-// //Custom
+// Custom
 @import "main.scss";
 @import "typography.scss";
-@import "logo.scss"
+@import "logo.scss";
+@import "work-card.scss"

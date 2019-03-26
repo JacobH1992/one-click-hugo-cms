@@ -2,13 +2,8 @@
 	<div class="work-card">
 		<a href="{{ .Permalink }}">
 			<div class="work-card-image" style="background-image: url('{{.Params.image}}');"></div>
-			<div class="work-card-text">
-				<h3 class="title-2">{{ .Title }}</h3>
-				<!-- <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p> -->
-				<!-- <p>{{ .Description }}</p> -->
+			<div class="work-card-text title-2">{{ .Title }}
 			</div>
 		</a>
 	</div>
 </div>
-
-<!-- <img src="{{ .Params.image }}" alt=""> -->

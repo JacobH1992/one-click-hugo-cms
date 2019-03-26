@@ -1,30 +1,28 @@
 {{ define "main" }}
 
-  <div class="bg-wrapper" data-lax-opacity="(vh*0.2) 1, (vh*1) 0" data-lax-translate-y="(vh*0) 0, (vh*0.8) 200">
+  <div class="bg-wrapper" data-lax-translate-y="(vh*0) 0, (vh*0.8) 200">
     <div class="bg-gradient"></div>
     <div class="bg-post" style="background-image: url('{{ .Params.image }}');"></div>
   </div>
 
-  <div class="container container-pad">
+  <div class="post-header container container-pad">
     <div class="row">
-      <div class="col-lg-5 offset-lg-1">
-        <h1>{{.Title}}</h1>
-        <p class="">{{ .Description }}</p>
+      <div class="col-lg-8 offset-lg-1">
+          <h1>{{.Title}}</h1>
+          <p>{{ .Description }}</p>
       </div>
-      <div class="col-lg-5 offset-lg-1">
-        <br>
-        <h3>Role</h3>
-        <p>Product Designer</p>
-        <p>Front-End Developer</p>
-      </div>
+      <!-- <div class="post-info col-lg-5 offset-lg-1">
+        <h3 class="text-secondary">Role</h3>
+        {{ .Params.roles | markdownify }}
+        <h3 class="text-secondary">Date</h3>
+        <p>{{ .Params.workdate }}</p>
+      </div> -->
     </div>
   </div>
+
   <div class="container container-pad">
-    <div class="row">
-      <div class="col-lg-8 offset-lg-2">
+    <div class="post-content row">
         {{ .Content }}
-      </div>
     </div>
-  </div>
   </div>
 {{ end }}

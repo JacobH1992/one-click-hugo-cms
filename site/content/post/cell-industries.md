@@ -3,6 +3,10 @@ title: Notes
 date: 2017-01-04T15:04:10.000Z
 description:
 image: https://www.jacobhammond.co.uk/img/work/web/thumb/cell-industries.jpg
+roles: |
+  Product Designer
+
+  Front-End Developer
 ---
 
 Tag posts?
@@ -16,6 +20,7 @@ Tag posts?
 * Tandem Website
 * Tandem Brand & Launch
 * Tandem App (Onboarding, Originations etc.)
+* Just Switch
 * PinPoint App (concepts, app screenshots, photos & video)
 * Student Rooma (wireframes, website, app)
 * Disney (collection of all work)

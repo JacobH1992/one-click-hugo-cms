@@ -1,5 +1,8 @@
-h1 {
+h1, h2, h3, h4, h4, h6 {
   font-family: $display-font-family;
+}
+
+h1 {
   font-size: 28px;
   line-height: 38px;
   font-weight: $font-weight-bold;
@@ -19,15 +22,16 @@ h2 {
   font-family: $body-font-family;
   font-size: 24px;
   line-height: 40px;
-  font-weight: $font-weight-light;
+  font-weight: $font-weight-regular;
 }
 
 h3 {
   font-size: 14px;
   letter-spacing: 1.4px;
-  font-weight: $font-weight-light;
+  font-weight: $font-weight-regular;
   text-transform: uppercase;
   margin-bottom: 32px;
+  padding-top: 0;
 }
 
 .title-1 {
@@ -66,15 +70,9 @@ h3 {
   @include media-breakpoint-up(md) {
     padding-top: 8px;
   }
-
 }
 
-h3, h4, h4, h6 {
-  font-family: $display-font-family;
-  // font-size: 18px;
-}
-
-p, a {
+p, a, .body-text {
   font-size: 20px;
   line-height: 32px;
   font-weight: $font-weight-light;
@@ -85,7 +83,12 @@ p, a {
   }
 }
 
-.p-small {
+.body-small, .body-small p {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.body-tiny {
   font-size: 16px;
   line-height: 24px;
 }

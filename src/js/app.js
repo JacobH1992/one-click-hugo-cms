@@ -1,4 +1,4 @@
-import lax from 'lax.js'
+// import lax from 'lax.js'
 
 // JS Goes here - ES6 supported
 if (window.netlifyIdentity) {

@@ -33,6 +33,7 @@
     bottom: 0;
     color: $white;
     @extend .title-2;
+    font-family: $display-font-family;
     background: #EB5757;
   }
   &:hover {

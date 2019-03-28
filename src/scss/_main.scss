@@ -1,9 +1,9 @@
 $display-font-family: 'Roboto', sans-serif;
-$body-font-family: 'Roboto', sans-serif;
+$body-font-family: 'Roboto Slab', serif;
 $font-weight-black: 700;
 $font-weight-bold: 500;
 $font-weight-regular: 400;
-$font-weight-light: 200;
+$font-weight-light: 300;
 
 $white: #FFFFFF;
 $white-50: rgba(255,255,255,0.50);
@@ -22,6 +22,7 @@ body {
   color: $white;
   font-family: $body-font-family;
   font-size: 100%;
+  line-height: 1.5;
 	text-rendering: optimizeLegibility;
 	font-smoothing: subpixel-antialiased;
 }
@@ -89,6 +90,7 @@ a.underline:hover:after{
 nav {
   height: 64px;
   margin: 32px 0;
+  font-family: $display-font-family;
   @include media-breakpoint-up(sm) {
     margin: 48px 0 64px 0;
   }

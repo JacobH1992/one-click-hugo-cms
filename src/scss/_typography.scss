@@ -1,34 +1,31 @@
-h1, h2, h3, h4, h4, h6 {
-  font-family: $display-font-family;
-}
-
 h1 {
+  font-family: $display-font-family;
   font-size: 28px;
-  line-height: 38px;
+  line-height: 1.25;
   font-weight: $font-weight-bold;
   margin-bottom: 24px;
+  text-transform: none;
   @include media-breakpoint-up(md) {
     font-size: 40px;
-    line-height: 56px;
     margin-bottom: 48px;
   }
   @include media-breakpoint-up(xl) {
     font-size: 52px;
-    line-height: 68px;
   }
 }
 
 h2 {
+  font-family: $body-font-family;
   font-size: 20px;
-  line-height: 32px;
   font-weight: $font-weight-light;
+  text-transform: none;
   @include media-breakpoint-up(md) {
     font-size: 24px;
-    line-height: 40px;
   }
 }
 
 h3 {
+  font-family: $display-font-family;
   font-size: 16px;
   letter-spacing: 1.4px;
   font-weight: $font-weight-regular;
@@ -40,33 +37,32 @@ h3 {
 .title-1 {
   font-family: $display-font-family;
   font-size: 28px;
-  line-height: 38px;
+  line-height: 1.25;
   font-weight: $font-weight-bold;
   margin-bottom: 24px;
   text-transform: none;
   @include media-breakpoint-up(md) {
     font-size: 40px;
-    line-height: 56px;
     margin-bottom: 48px;
   }
   @include media-breakpoint-up(xl) {
     font-size: 52px;
-    line-height: 68px;
+
   }
 }
 
 .title-2 {
+  font-family: $body-font-family;
   font-size: 20px;
-  line-height: 32px;
   font-weight: $font-weight-light;
   text-transform: none;
   @include media-breakpoint-up(md) {
     font-size: 24px;
-    line-height: 40px;
   }
 }
 
 .title-3 {
+  font-family: $display-font-family;
   font-size: 16px;
   letter-spacing: 1.4px;
   font-weight: $font-weight-regular;
@@ -80,23 +76,20 @@ h3 {
 
 p, a, .body-text {
   font-size: 20px;
-  line-height: 32px;
   font-weight: $font-weight-light;
+  line-height: 1.75;
   @include media-breakpoint-up(md) {
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 22px;
     margin-bottom: 32px;
   }
 }
 
 .body-small, .body-small p {
   font-size: 20px;
-  line-height: 32px;
 }
 
 .body-tiny {
   font-size: 16px;
-  line-height: 24px;
 }
 
 .text-secondary {

@@ -21,7 +21,7 @@ Anyone could become a Co-Founder and each one got a share in the bank and their 
 
 ### A new brand
 
-For the next six months, we set about defining the brand for the new bank. I was involved in and helped facilitate numerous workshops, Co-Founder events and testing sessions with [Wolff Olins](http://www.wolffolins.com/) and other Tandem employees. We explored multiple names and directions before finding 'Tandem'.
+For the next six months, we set about defining the brand for the new bank. I was involved in and helped facilitate numerous workshops, Co-Founder events and testing sessions with {{% a_blank "Wolff Olins" "http://www.wolffolins.com/" %}} and other Tandem employees. We explored multiple names and directions before finding 'Tandem'.
 
 The output from working with Wolff Olins was a 'minimal viable brand' and a set of guidelines that the Tandem team could take and evolve over time. The guidelines included brand principles, a logo, colour palette, typography, photography and iconography styles, TOV principles and user personas.
 {{< figure src="/img/tdm-brand/tdm-teaser-logo.jpg" alt="Tandem Logo" >}}
@@ -37,4 +37,25 @@ The brand expression was born from the collaboration with Co-Founders. This is e
 
 ---
 
-Some more text here.
+### Launch website
+
+Eager to show off our new brand, we decided to design and build a responsive teaser website. The site's main aim was to act as a destination for people who wanted to join the Co-Founder community. It also had to demonstrate that Tandem was something new and refreshing for the world of banking.
+
+<!-- <div class="img revealBottom"><img src="../assets/img/tdm-teaser-website/tdm-teaser-postits.jpg" alt=""></div> -->
+
+One of the first ideas we had for the brand was to use the conjunction of 'AND', present in the word 'TANDEM', to further reinforce the message of people coming together.
+
+<div class="video-wrapper"><video class="video revealBottom" poster="https://thumbs.gfycat.com/OldCharmingEider-poster.jpg" autoplay="" muted="" loop="" title="">
+<source src="https://fat.gfycat.com/ThickOffensiveAltiplanochinchillamouse.webm" type="video/webm">
+<source src="https://giant.gfycat.com/ThickOffensiveAltiplanochinchillamouse.mp4" type="video/mp4">
+<img title="Sorry, your browser doesn't support HTML5 video." src="https://thumbs.gfycat.com/ThickOffensiveAltiplanochinchillamouse.jpg">
+</video></div>
+
+{{< figure src="/img/tdm-brand/tdm-teaser-mobile.jpg" alt="Tandem Teaser Website" >}}<br>
+
+We designed and developed an animated photo grid. The grid generates a unique composition of Co-Founder photos for each visitor, with synced messaging and transitions, and allowed us to represent the diversity of the Co-Founder community. All of the images used on the site are of real members of the Co-Founder community.
+{{< figure src="/img/tdm-brand/tdm-teaser-blog.jpg" alt="Tandem Teaser Blog" >}}<br>
+
+The website was later expanded to include an about page and a blog. It was used for around 8 months and contributed to roughly 6,000 Co-Founder sign-ups. It also acted as a point of reference for the press or investors. It was the first public display of the Tandem brand, successfully setting us apart from our competition.
+
+---

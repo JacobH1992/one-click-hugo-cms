@@ -30,7 +30,7 @@
   left: -5%;
   background-size: cover;
   background-position: center;
-  opacity: 0.3;
+  opacity: 0.4;
   filter: blur(6px);
   z-index: -2;
 }
@@ -55,7 +55,6 @@
 
 .post-content {
   h3 {
-    // @extend .title-3;
     margin-top: 48px;
     @extend .text-secondary;
     @include media-breakpoint-up(lg) {
@@ -64,7 +63,6 @@
     }
   }
   p {
-    // margin-bottom: 0;
     @include media-breakpoint-up(lg) {
       @extend .col-lg-8;
       @extend .offset-lg-2;
@@ -85,5 +83,6 @@
     background: $white-25;
     border: none;
     margin-bottom: 32px;
+    margin-top: 32px;
   }
 }

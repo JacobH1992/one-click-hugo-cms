@@ -7,21 +7,22 @@
 
   <div class="post-header container container-pad">
     <div class="row">
-      <div class="col-lg-8 offset-lg-1">
+      <div class="col-lg-5 offset-lg-1">
           <h1>{{.Title}}</h1>
-          <p>{{ .Description }}</p>
+          <h2>{{ .Description }}</h2>
       </div>
-      <!-- <div class="post-info col-lg-5 offset-lg-1">
+      <div class="post-info col-lg-4 offset-lg-1">
         <h3 class="text-secondary">Role</h3>
         {{ .Params.roles | markdownify }}
         <h3 class="text-secondary">Date</h3>
         <p>{{ .Params.workdate }}</p>
-      </div> -->
+      </div>
     </div>
   </div>
 
   <div class="container container-pad">
     <div class="post-content row">
+        <hr>
         {{ .Content }}
     </div>
   </div>

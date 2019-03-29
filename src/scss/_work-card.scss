@@ -34,15 +34,16 @@
   }
   .work-card-text {
     width: 100%;
-    padding: 24px 32px;
+    padding: 24px 24px;
     position: absolute;
     bottom: 0;
     color: $white;
     font-weight: $font-weight-regular;
     @extend .title-2;
     font-size: 18px;
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(md) {
       font-size: 22px;
+      padding: 24px 32px;
     }
     // font-weight: $font-weight-light;
     font-family: $display-font-family;

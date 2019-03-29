@@ -7,18 +7,16 @@
 	height: 80px;
 	position: relative;
 	border-bottom: 0;
+	transition: all .3s;
 }
 
 .logo-text {
 	width: 100%;
 	position: absolute;
 	z-index: 1;
-	font-size: 16px;
+	font-size: 18px;
+	letter-spacing: 1.2px;
 	font-weight: $font-weight-bold;
-	@include media-breakpoint-up(md) {
-		font-size: 18px;
-		letter-spacing: 1.2px;
-	}
 }
 
 .logo span {
@@ -26,7 +24,6 @@
 	top: 0px;
 	left: 0px;
 	background-color: rgba(45,156,219,.75);
-	transition: all .3s;
 	&:nth-child(2) {
 		animation:
 			width random(3000)+3000+ms ease-in-out alternate infinite,

@@ -109,12 +109,16 @@ blockquote {
   margin-bottom: 0;
   p {
     background: $blue-mid;
-    padding: 32px 80px 32px 48px !important;
+    padding: 24px 64px 24px 32px !important;
     border-left: 4px solid $blue-light;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 200;
     font-style: italic;
     margin-bottom: 0;
+    @include media-breakpoint-up(md) {
+      padding: 32px 80px 32px 48px !important;
+      font-size: 24px;
+    }
   }
   cite, h2 {
     padding-top: 12px;

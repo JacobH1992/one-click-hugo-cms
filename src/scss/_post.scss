@@ -17,7 +17,7 @@
   left: 0;
   bottom: 0;
   right: 0;
-  background: linear-gradient(to bottom, rgba(30,87,153,0) 0%, #25283d 90%);
+  background: linear-gradient(to bottom, rgba(30,87,153,0) 0%, #25283d 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#25283d',GradientType=0 );
   z-index: -1;
 }
@@ -30,7 +30,7 @@
   left: -5%;
   background-size: cover;
   background-position: center;
-  opacity: 0.4;
+  opacity: 0.5;
   filter: blur(6px);
   z-index: -2;
 }
@@ -40,9 +40,10 @@
 
 .post-info {
   margin-top: 32px;
-  // @extend .body-small;
   @include media-breakpoint-up(lg) {
-    margin-top: 0px;
+  margin-top: 0px;
+  border-left: 1px solid $white-25;
+  padding-left: 64px;
   }
   p {
     margin-bottom: 0px;

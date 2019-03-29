@@ -33,23 +33,29 @@ h1 {
 
 h2 {
   font-family: $body-font-family;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.75;
   font-weight: $font-weight-light;
   text-transform: none;
   @include media-breakpoint-up(md) {
     font-size: 20px;
   }
+  @include media-breakpoint-up(lg) {
+    font-size: 22px;
+  }
 }
 
 .title-2 {
   font-family: $body-font-family;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.75;
   font-weight: $font-weight-light;
   text-transform: none;
   @include media-breakpoint-up(md) {
     font-size: 20px;
+  }
+  @include media-breakpoint-up(lg) {
+    font-size: 22px;
   }
 }
 
@@ -86,6 +92,9 @@ p, a, .body-text {
   @include media-breakpoint-up(md) {
     font-size: 20px;
     margin-bottom: 32px;
+  }
+  @include media-breakpoint-up(lg) {
+    font-size: 22px;
   }
 }
 

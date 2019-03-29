@@ -89,7 +89,7 @@ a.underline:hover:after{
 
 nav {
   height: 64px;
-  margin: 32px 0 48px 0;
+  margin: 32px 0 32px 0;
   font-family: $display-font-family;
   @include media-breakpoint-up(sm) {
     margin: 48px 0 64px 0;
@@ -97,9 +97,12 @@ nav {
 }
 
 .nav {
-  display: flex;
   float: right;
   list-style: none;
+  display: none;
+  @include media-breakpoint-up(sm) {
+    display: flex;
+  }
   .nav-item {
     padding-left: 16px;
     @include media-breakpoint-up(md) {

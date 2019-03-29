@@ -89,7 +89,7 @@ a.underline:hover:after{
 
 nav {
   height: 64px;
-  margin: 32px 0;
+  margin: 32px 0 48px 0;
   font-family: $display-font-family;
   @include media-breakpoint-up(sm) {
     margin: 48px 0 64px 0;

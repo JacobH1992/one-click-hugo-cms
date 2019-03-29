@@ -35,18 +35,21 @@
   z-index: -2;
 }
 
-
 .post-header {
-  padding-bottom: 0px;
+  // padding-bottom: 0px;
 }
 
 .post-info {
-  @extend .body-small;
+  margin-top: 32px;
+  // @extend .body-small;{
+  @include media-breakpoint-up(lg) {
+    margin-top: 0px;
+  }
   p {
     margin-bottom: 0px;
   }
   h3 {
-    margin-bottom: 16px;
+    margin-bottom: 11px;
   }
   h3:last-of-type {
     margin-top: 32px;
@@ -79,11 +82,13 @@
   }
   .video-wrapper {
     margin-top: 32px;
+    overflow: hidden;
     @extend .col-lg-10;
     @extend .offset-lg-1;
   }
   video {
   	width: 100%;
+    height: 100%;
   }
   hr {
     width: 100%;

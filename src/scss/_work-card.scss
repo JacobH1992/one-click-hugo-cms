@@ -1,6 +1,6 @@
 .work-cards {
   margin-top: 12%; // offset negative margin
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     margin-top: 120px;
   }
 }
@@ -26,6 +26,9 @@
     background-size: cover;
     background-position: center bottom;
     @include media-breakpoint-up(md) {
+      height: 300px;
+    }
+    @include media-breakpoint-up(lg) {
       height: 340px;
     }
   }
@@ -35,6 +38,7 @@
     position: absolute;
     bottom: 0;
     color: $white;
+    font-weight: $font-weight-regular;
     @extend .title-2;
     font-size: 18px;
     @include media-breakpoint-up(lg) {

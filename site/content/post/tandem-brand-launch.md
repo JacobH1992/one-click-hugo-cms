@@ -1,5 +1,5 @@
 ---
-title: "Tandem Brand Launch & Teaser"
+title: "Tandem Brand Launch"
 date: 2018-01-04T15:04:10.000Z
 description: A new brand for a new kind of bank built together with its customers.
 image: /img/tandem-brand.jpg

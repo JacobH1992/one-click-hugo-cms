@@ -100,8 +100,36 @@ p, a, .body-text {
 }
 
 .body-small, .body-small p {
-  font-size: 20px;
+  font-size: 16px;
 }
 .text-secondary {
   color: $white-50;
+}
+
+a, a:visited, a:hover, a:active{
+	text-decoration: none;
+	color: $yellow-mid;
+  &:hover{
+    color: $yellow-light;
+  }
+}
+
+a.underline {
+  position: relative;
+  transition: .3s color ease;
+}
+
+a.underline:after{
+  content: "";
+  transition: .3s all ease;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  height: 2px;
+  width: 0;
+  background: $yellow-light;
+}
+
+a.underline:hover:after{
+  width:100%;
 }

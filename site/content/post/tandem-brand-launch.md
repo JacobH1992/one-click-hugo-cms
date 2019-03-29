@@ -29,12 +29,9 @@ The output from working with Wolff Olins was a 'minimal viable brand' and a set 
 
 The brand expression was born from the collaboration with Co-Founders. This is embodied in the logo and all other graphic elements. The hand-drawn line is the basis for the typeface, icons and other elements used across brand communications and digital products.
 
-> Co-Founders are the lifeblood of Tandem and will continue to help shape our customer offering as we head towards launch.
-
-<p class="p-quote">Ricky Knox, Tandem Founder & CEO</p>
-
-
-
+> " Co-Founders are the lifeblood of Tandem and will continue to help shape our customer offering as we head towards launch. "
+>
+> <cite>-- Ricky Knox, Tandem Founder & CEO</cite>
 ---
 
 ### Launch website

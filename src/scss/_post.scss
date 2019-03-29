@@ -59,16 +59,12 @@
   h3 {
     margin-top: 48px;
     @extend .text-secondary;
-    @include media-breakpoint-up(lg) {
       @extend .col-lg-8;
       @extend .offset-lg-2;
-    }
   }
   p {
-    @include media-breakpoint-up(lg) {
-      @extend .col-lg-8;
-      @extend .offset-lg-2;
-    }
+    @extend .col-lg-8;
+    @extend .offset-lg-2;
   }
   figure {
     margin-top: 40px;
@@ -98,12 +94,41 @@
     margin-top: 32px;
     position: relative;
   }
+  blockquote {
+    @extend .col-lg-8;
+    @extend .offset-lg-2;
+    p {
+      @extend .col-lg-12;
+      @extend .offset-lg-0;
+    }
+  }
 }
 
 blockquote {
-  // margin-left: 0;
-  // padding-left: 24px;
-  @extend .col-lg-8;
-  @extend .offset-lg-2;
-  border-left: 4px solid $blue-light;
+  margin-top: 32px;
+  margin-bottom: 0;
+  p {
+    background: $blue-mid;
+    padding: 32px 80px 32px 48px !important;
+    border-left: 4px solid $blue-light;
+    font-size: 24px;
+    font-weight: 200;
+    font-style: italic;
+    margin-bottom: 0;
+  }
+  cite, h2 {
+    padding-top: 12px;
+    font-style: normal;
+    text-align: right;
+    margin-bottom: 0;
+  }
+  &:before {
+    content: open-quote;
+    position: absolute;
+    top: -40px;
+    left: 32px;
+    font-size: 80px;
+    color: $blue-light;
+    z-index: 1;
+  }
 }

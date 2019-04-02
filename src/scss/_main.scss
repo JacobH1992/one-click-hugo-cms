@@ -1,5 +1,5 @@
-$display-font-family: 'Roboto', sans-serif;
-$body-font-family: 'Roboto Slab', serif;
+$display-font-family: 'Titillium Web', sans-serif; // Articulate, Circular, GT-Walsheim, FT Futura
+$body-font-family: 'Roboto', serif;
 $font-weight-black: 700;
 $font-weight-bold: 500;
 $font-weight-regular: 400;
@@ -102,5 +102,12 @@ nav {
       height: 3px;
       bottom: -12px;
     }
+  }
+}
+
+.footer-social-icons {
+  text-align: right;
+  a {
+    margin-left: 16px;
   }
 }

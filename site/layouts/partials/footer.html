@@ -6,7 +6,27 @@
 	{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}
 </footer> -->
 
-{{ partial "svg" . }}
+
+
+<footer class="container container-pad">
+  <div class="row">
+    <div class="col-8">
+      <p class="body-small">&copy; 2019. Made with &#9829; by me</p>
+    </div>
+    <div class="col-4">
+      <!-- {{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}
+      {{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}
+      {{ partial "social-icon" (dict "link" "https://www.instagram.com/jacobh_1992/" "svg" "icons-instagram") }}
+      {{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}
+      {{ partial "svg" . }} -->
+      <p class="footer-social-icons">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </p>
+    </div>
+</div>
+</footer>
 
 <script src="/app.js"></script>
 

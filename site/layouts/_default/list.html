@@ -1,6 +1,13 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" "/img/blog-index.jpg" "title" "Work") }}
+<header class="container container-pad lax" data-lax-opacity="(vh*0) 1, (vh*1) 0" data-lax-translate-y="(vh*0) 0, (vh*1) 100">
+  <div class="row">
+    <div class="col-lg-10 offset-lg-1">
+        <h1>Some of my work</h1>
+        <h2>More detailed case studies are available on request.</h2>
+    </div>
+  </div>
+</header>
 
 <div class="container container-pad">
   <div class="row work-wrapper">
@@ -10,6 +17,5 @@
     </div>
   {{ partial "pagination" . }}
 </div>
-
 
 {{end}}

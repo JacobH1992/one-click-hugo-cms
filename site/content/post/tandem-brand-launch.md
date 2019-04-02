@@ -1,7 +1,7 @@
 ---
 title: "Tandem Brand Launch"
 date: 2018-01-04T15:04:10.000Z
-description: A new brand for a new kind of bank built together with its customers.
+description: As one of the first employees of Tandem I was involved in helping create a new brand for a new kind of bank built together with its customers.
 image: /img/tandem-brand.jpg
 roles: |
   Product designer
@@ -10,10 +10,6 @@ roles: |
 workdate: 2018
 ---
 ### Starting out
-
-As one of the first employees of Tandem I was involved in helping create a new brand.
-
-We started with a single question, "What is a good bank?" and a desire to reinvent banking to improve people's lives.
 
 For the first few months we operated under the guise of '#agoodbank', a non-brand that we leveraged to gain a greater understanding of what people really needed from a bank. We ran discovery workshops, interviews and created a community of people we called 'Co-Founders' — a group of ordinary, un-banky people who would help shape and build the kind of bank they wanted.
 
@@ -56,5 +52,3 @@ We designed and developed an animated photo grid. The grid generates a unique co
 {{< figure src="/img/tdm-brand/tdm-teaser-blog.jpg" alt="Tandem Teaser Blog" >}}<br>
 
 The website was later expanded to include an about page and a blog. It was used for around 8 months and contributed to roughly 6,000 Co-Founder sign-ups. It also acted as a point of reference for the press or investors. It was the first public display of the Tandem brand, successfully setting us apart from our competition.
-
----

@@ -1,13 +1,12 @@
 .logo {
+	position: relative;
 	display: inline-block;
 	text-align: center;
 	line-height: 80px;
 	color: $white;
 	width: 80px;
 	height: 80px;
-	position: relative;
 	border-bottom: 0;
-	transition: all .3s;
 }
 
 .logo-text {
@@ -19,7 +18,8 @@
 	font-weight: $font-weight-bold;
 }
 
-.logo span {
+
+.logo span, .blob span {
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -54,6 +54,28 @@
 			border-br random(2000)+3000+ms ease-in-out alternate infinite,
 			rotate-ccw random(40)+40+s linear infinite;
 	}
+}
+
+.blob {
+  width: 480px;
+  height: 480px;
+  transition: all .3s;
+	position: absolute;
+	z-index: -1;
+	opacity: 0.1;
+	span {
+		background-color: $blue-light;
+	}
+}
+
+.blob-left {
+	top: -12%;
+	left: 6%;
+}
+
+.blob-right {
+	top: -12%;
+	right: 6%;
 }
 
 @keyframes width {

@@ -9,7 +9,7 @@ about:
     heading: About me
     text: |
 
-      I'm involved in every step and iteration of a product design process from research and discovery to visual design, production and validation.
+      I'm involved in every step and iteration of a human-centred design process from research and discovery to visual design, production and validation.
 
       My skills span user research and testing, interaction design, visual design, design systems, proposition development and design leadership.
 

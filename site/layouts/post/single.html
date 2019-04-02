@@ -11,7 +11,7 @@
         <h1>{{.Title}}</h1>
         <h2>{{ .Description }}</h2>
     </div>
-    <div class="work-info col-6 col-lg-4 offset-lg-1">
+    <div class="work-info col-lg-4 offset-lg-1">
       <h3 class="text-secondary">Role</h3>
       {{ .Params.roles | markdownify }}
       <h3 class="text-secondary">Date</h3>
@@ -22,6 +22,7 @@
 
 <div class="container container-pad">
   <div class="work-content row">
+      <hr>
       {{ .Content }}
       <hr>
   </div>

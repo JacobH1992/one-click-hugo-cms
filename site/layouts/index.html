@@ -11,22 +11,10 @@
 </header>
 {{ end }}
 
-{{/* partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") */}}
-
 {{ partial "blog" . }}
 
 {{/* .Content */}}
 
-<!-- </div> -->
-
 {{ partial "short-text" .Params.about }}
-
-<!-- <div class="container container-pad">
-  <div class="row">
-    <div class="col-sm-10 col-md-8 offset-lg-1">
-
-    </div>
-  </div>
-</div> -->
 
 {{ end }}

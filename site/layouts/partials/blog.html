@@ -1,9 +1,9 @@
-<div class="work-cards container container-pad">
+<section class="work-cards container container-pad">
 	<div class="row">
-		<!-- {{ range first 2 (where .Data.Pages "Type" "post") }}
+		<!-- {{ range first 2 (where .Data.Pages "Type" "work") }}
 			{{ .Render "li"}}
 		{{ end }} -->
-		{{ range $i,$p := first 2 (where .Data.Pages "Type" "post") }}
+		{{ range $i,$p := first 2 (where .Data.Pages "Type" "work") }}
 		  {{if not (modBool $i 2)}} <!--even-->
 			<div class="col-md-6">
 				<div class="work-card">
@@ -25,9 +25,9 @@
 			{{end}}
 		{{end}}
 		<div class="col home-work-link">
-				<a class="underline" href="/post">See more of my work <i class="far fa-hand-point-right"></i></a>
+				<a class="underline" href="/work">See more of my work <i class="far fa-hand-point-right"></i></a>
 		</div>
 	</div>
 	<div>
 	</div>
-</div>
+</section>

@@ -101,9 +101,6 @@ p, a, .body-text {
 .body-small, .body-small p {
   font-size: 16px;
 }
-.text-secondary {
-  color: $white-50;
-}
 
 a, a:visited, a:hover, a:active{
 	text-decoration: none;
@@ -111,6 +108,10 @@ a, a:visited, a:hover, a:active{
   &:hover{
     color: $yellow-light;
   }
+}
+
+a i {
+  margin-left: 4px;
 }
 
 a.underline {
@@ -131,4 +132,13 @@ a.underline:after{
 
 a.underline:hover:after{
   width:100%;
+}
+
+
+.text-secondary {
+  color: $white-50;
+}
+
+.text-display {
+  font-family: $display-font-family;
 }

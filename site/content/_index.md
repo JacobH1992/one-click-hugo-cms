@@ -9,11 +9,9 @@ about:
     heading: About me
     text: |
 
-      I design user-centred digital products and experiences.
+      I'm involved in every step and iteration of a product design process from research and discovery to visual design, production and validation.
 
-      My skills span service design, user experience design, user interface and interaction design, design systems, production and front-end development.
+      My skills span user research and testing, interaction design, visual design, design systems, proposition development and design leadership.
 
-      I'm involved in every step and iteration of the human-centred design process, through discovery, exploration, production and validation.
-
-      Let's build something together. Get in touch.
+      With experience in both agency and FinTech startups as well as large media, telecoms and financial services companies, I apply my skills and experience to solving problems for people and businesses.
 ---

@@ -22,7 +22,7 @@
   z-index: -1;
 }
 
-.bg-post {
+.bg-work {
   position: absolute;
   width: 110%;
   height: 110%;
@@ -35,10 +35,11 @@
   z-index: -2;
 }
 
-.post-header {
+.work-wrap {
+  background: $blue-dark;
 }
 
-.post-info {
+.work-info {
   margin-top: 32px;
   @include media-breakpoint-up(lg) {
   margin-top: 0px;
@@ -56,7 +57,7 @@
   }
 }
 
-.post-content {
+.work-content {
   h3 {
     margin-top: 48px;
     @extend .text-secondary;

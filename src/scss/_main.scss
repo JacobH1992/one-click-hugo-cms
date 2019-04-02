@@ -105,10 +105,21 @@ nav {
   }
 }
 
-.footer-social-icons {
+.home-work-link {
+  margin-top: 16px;
   text-align: right;
+}
+
+.footer-social-icons {
+  @include media-breakpoint-up(sm) {
+    text-align: right;
+  }
   a {
-    margin-left: 16px;
+    margin-right: 16px;
+    @include media-breakpoint-up(sm) {
+      margin-left: 16px;
+      margin-right: 0;
+    }
   }
   .footer-social-icon {
     transition: all .3s;

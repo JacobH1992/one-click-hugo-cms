@@ -110,4 +110,10 @@ nav {
   a {
     margin-left: 16px;
   }
+  .footer-social-icon {
+    transition: all .3s;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
 }

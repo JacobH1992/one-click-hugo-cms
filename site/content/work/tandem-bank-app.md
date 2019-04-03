@@ -22,6 +22,19 @@ They are characterised by some common traits:
 {{< figure src="/img/tdm-app/persona.jpg" alt="Live for the moment persona" >}}
 
 ---
+### User journeys
+
+Hundreds of user journeys had to be created in order to build the app. From originations to Registration and Log In.
+
+---
+### Prototyping & Testing
+
+---
+### Concept design
+
+Countless app concepts were designed to try and push and evolve the app's visual style. Here are some example of concepts I worked on that didn't make it:
+
+---
 
 ### Atomic design
 
@@ -38,16 +51,5 @@ I was part of the team that created the design system from scratch. I was respon
 {{< figure src="/img/tdm-app/tdm-components6.jpg" alt="Lots of components" >}}
 
 ---
-### User journeys
-
-Hundreds of user journeys had to be created in order to build the app. From originations to Registration and Log In.
-
----
-### Prototyping & Testing
-
----
-### Concept design
-
-Countless app concepts were designed to try and push and evolve the app's visual style. Here are some example of concepts I worked on that didn't make it:
 
 ### App Store & Onboarding

@@ -1,15 +1,17 @@
 ---
 title: "Tandem Brand Launch"
 date: 2018-01-04T15:04:10.000Z
-description: As one of the first employees of Tandem I was involved in helping create a new brand for a new kind of bank built together with its customers.
-image: /img/tandem-brand.jpg
+description: A new brand for a new kind of bank.
+image: /img/cover/tandem-brand.jpg
 roles: |
   Product designer
 
   Front-end developer
-workdate: 2018
+workdate: 2016
 ---
 ### Starting out
+
+As one of the first employees of Tandem I was involved in helping create and iterate a new brand for the bank. We started with a single question, “What is a good bank?” and a desire to reinvent banking to improve people’s lives.
 
 For the first few months we operated under the guise of '#agoodbank', a non-brand that we leveraged to gain a greater understanding of what people really needed from a bank. We ran discovery workshops, interviews and created a community of people we called 'Co-Founders' — a group of ordinary, un-banky people who would help shape and build the kind of bank they wanted.
 
@@ -17,12 +19,15 @@ Anyone could become a Co-Founder and each one got a share in the bank and their 
 
 {{< figure src="/img/tdm-brand/tdm-agb-app.jpg" alt="A Good Bank App" >}}
 
-### A new brand
+---
+
+### Stronger together
 
 For the next six months, we set about defining the brand for the new bank. I was involved in and helped facilitate numerous workshops, Co-Founder events and testing sessions with {{% a_blank "Wolff Olins" "http://www.wolffolins.com/" %}} and other Tandem employees. We explored multiple names and directions before finding 'Tandem'.
-
-The output from working with Wolff Olins was a 'minimal viable brand' and a set of guidelines that the Tandem team could take and evolve over time. The guidelines included brand principles, a logo, colour palette, typography, photography and iconography styles, TOV principles and user personas.
 {{< figure src="/img/tdm-brand/tdm-teaser-logo.jpg" alt="Tandem Logo" >}}
+
+The output from working with Wolff Olins was a 'minimal viable brand' and a set of guidelines that the Tandem team could take and evolve over time. The guidelines included brand principles, a logo, a new font, colour palette, typography, photography and iconography styles, TOV principles and user personas.
+{{< figure src="/img/tdm-brand/tdm-teaser-font.jpg" alt="Tandem Hand Font" >}}
 {{< figure src="/img/tdm-brand/tandem-teaser-guidelines.jpg" alt="Tandem Guidelines" >}}
 
 The brand expression was born from the collaboration with Co-Founders. This is embodied in the logo and all other graphic elements. The hand-drawn line is the basis for the typeface, icons and other elements used across brand communications and digital products.
@@ -30,6 +35,8 @@ The brand expression was born from the collaboration with Co-Founders. This is e
 > &ldquo; Co-Founders are the lifeblood of Tandem and will continue to help shape our customer offering as we head towards launch. &rdquo;
 >
 > <cite>-- Ricky Knox, Tandem Founder & CEO</cite>
+---
+
 ---
 
 ### Launch website

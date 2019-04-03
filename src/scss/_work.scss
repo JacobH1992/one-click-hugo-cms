@@ -59,20 +59,22 @@
 
 .work-content {
   h3 {
-    margin-top: 48px;
-    @extend .text-secondary;
-      @extend .col-lg-8;
-      @extend .offset-lg-2;
+    margin-top: 24px;
+    @extend .col-lg-8;
+    @extend .offset-lg-2;
   }
   p {
     @extend .col-lg-8;
     @extend .offset-lg-2;
   }
   figure {
-    margin-top: 40px;
+    margin-top: 24px;
     // margin-bottom: 32px;
     @extend .col-lg-10;
     @extend .offset-lg-1;
+    @include media-breakpoint-up(md) {
+      margin-top: 40px;
+    }
     img {
       width: 100%;
     }
@@ -104,11 +106,21 @@
       @extend .offset-lg-0;
     }
   }
+  ul {
+    @extend .col-lg-7;
+    @extend .offset-lg-2;
+    @extend .body-text;
+    padding-left: 64px;
+    margin-top: 0;
+    li {
+      padding: 4px 0;
+    }
+  }
 }
 
 blockquote {
   margin-top: 32px;
-  margin-bottom: 0;
+  margin-bottom: 16px;
   p {
     font-family: $body-font-family;
     font-size: 20px;

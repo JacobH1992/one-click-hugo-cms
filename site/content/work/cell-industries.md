@@ -13,14 +13,14 @@ Tag posts?
 
 * Just Get Active Website
 * Just Design System
-* Just Service Design
-* Just IDP App
-* Retirement Checker App
+* Just LTM Service Design - post-its -> journeys -> prototype
+* Just IDP App - journeys, sketches/concepts, prototypes, deliverable
+* Retirement Checker App - desiging with users, paper prototypes, 
 * TurnOut App
 * Tandem Website
 * Tandem Brand & Launch
 * Tandem App (Onboarding, Originations etc.)
-* Just Switch
+* Just Switch - Concept, app store, website
 * PinPoint App (concepts, app screenshots, photos & video)
 * Student Rooma (wireframes, website, app)
 * Disney (collection of all work)

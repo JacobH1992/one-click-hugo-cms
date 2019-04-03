@@ -60,6 +60,30 @@ h2 {
 
 h3 {
   font-family: $display-font-family;
+  font-weight: $font-weight-semi-bold;
+  font-size: 22px;
+  text-transform: none;
+  letter-spacing: normal;
+  margin-bottom: 24px;
+  @include media-breakpoint-up(md) {
+    font-size: 28px;
+  }
+}
+
+.title-3 {
+  font-family: $display-font-family;
+  font-weight: $font-weight-semi-bold;
+  font-size: 22px;
+  text-transform: none;
+  letter-spacing: normal;
+  margin-bottom: 24px;
+  @include media-breakpoint-up(md) {
+    font-size: 28px;
+  }
+}
+
+h4 {
+  font-family: $display-font-family;
   font-size: 16px;
   letter-spacing: 1.8px;
   font-weight: $font-weight-regular;
@@ -71,7 +95,7 @@ h3 {
   }
 }
 
-.title-3 {
+.title-4 {
   font-family: $display-font-family;
   font-size: 16px;
   letter-spacing: 1.8px;
@@ -94,7 +118,7 @@ p, a, .body-text {
     margin-bottom: 32px;
   }
   @include media-breakpoint-up(lg) {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 

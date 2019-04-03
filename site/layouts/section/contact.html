@@ -1,21 +1,17 @@
 {{ define "main" }}
 
-		<img src="{{ .Params.logo }}" alt="" class="db w4 center pv4">
-
-		{{ .Content }}
-
-		<div class="flex-ns mb3">
-    	{{ range .Params.contact_entries }}
-				<div>
-					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
-					<p>{{ .text }}</p>
-				</div>
+<section class="container container-pad">
+	<div class="row">
+		<div class="col-md-10 offset-md-1">
+			<h1>Contact</h1>
+			{{ .Content }}
+			{{ range .Params.contact_entries }}
+			<p>{{ .text }}</p>
 			{{ end }}
+			{{ partial "contact-form" . }}
 		</div>
-
-		{{ partial "contact-form" . }}
-
 	</div>
-</div>
+</section>
+
 
 {{ end }}

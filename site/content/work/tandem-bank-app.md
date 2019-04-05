@@ -24,15 +24,33 @@ They are characterised by some common traits:
 ---
 ### User journeys
 
-Hundreds of user journeys had to be created in order to build the app. From originations to Registration and Log In.
+{{< figure src="/img/tdm-app/app-overview.jpg" alt="Tandem App" >}}
+
+The Tandem app was build for iOS and Android. Parts of it were also built as a responsive web app. This meant that hundreds of user journeys had to be created in order to build the app. From product originations to registration and log in.
+
+[images of user journeys]
+
+login / registration
+originations
 
 ---
-### Prototyping & Testing
+### Interaction & Prototyping
 
----
-### Concept design
+Lots of time was spent on ....
+
+login
+register
+spending money
 
 Countless app concepts were designed to try and push and evolve the app's visual style. Here are some example of concepts I worked on that didn't make it:
+
+---
+
+### App Store & Onboarding
+
+Onboarding concepts & conversational UI
+
+Appstore images
 
 ---
 
@@ -49,7 +67,3 @@ Each component is made up of smaller parts (atoms) and styles - all of which adh
 
 I was part of the team that created the design system from scratch. I was responsible for establishing the process with product and engineering and defining the overarching guidelines that effect the design system holistically, as well as contributing to many of the 300+ individual components.
 {{< figure src="/img/tdm-app/tdm-components6.jpg" alt="Lots of components" >}}
-
----
-
-### App Store & Onboarding

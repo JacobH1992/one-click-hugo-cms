@@ -64,16 +64,19 @@
     @extend .offset-lg-2;
   }
   p {
+    // margin-top: 16px;
+    // margin-bottom: 16px;
     @extend .col-lg-8;
     @extend .offset-lg-2;
   }
   figure {
     margin-top: 24px;
+    margin-bottom: 24px;
     // margin-bottom: 32px;
     @extend .col-lg-10;
     @extend .offset-lg-1;
     @include media-breakpoint-up(md) {
-      margin-top: 40px;
+      // margin-top: 0px;
     }
     img {
       width: 100%;
@@ -140,6 +143,7 @@ blockquote {
     @extend .body-text;
     text-align: right;
     margin-bottom: 0;
+    font-style: normal;
   }
   &:before {
     content: open-quote;

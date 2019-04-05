@@ -13,12 +13,11 @@ if (window.netlifyIdentity) {
 
 // Initialise Lax
 window.onload = function() {
-	lax.setup() // init
+	lax.setup({ /* opts */ }) // init
 
-	const updateLax = () => {
-		lax.update(window.scrollY)
-		window.requestAnimationFrame(updateLax)
-	}
+	document.addEventListener('scroll', function(e) {
+	  lax.update(window.scrollY) // update every scroll
+	}, false)
 
-	window.requestAnimationFrame(updateLax)
+	lax.update(window.scrollY) // set initial positions
 }

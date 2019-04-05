@@ -7,7 +7,8 @@ $font-weight-regular: 400;
 $font-weight-light: 300;
 
 $white: #FFFFFF;
-$white-50: rgba(255,255,255,0.50);
+$white-85: rgba(255,255,255,0.85);
+$white-50: rgba(255,255,255,0.5);
 $white-25: rgba(255,255,255,0.25);
 $blue-dark: #25283D;
 $blue-mid: #262F46;
@@ -17,6 +18,10 @@ $red-mid: #fd625e;
 $red-light: #EE7171;
 $yellow-mid: #F2C94C;
 $yellow-light: #F7D97D;
+
+*::selection {
+  background: $blue-light;
+}
 
 body {
   width: 100%;
@@ -124,6 +129,7 @@ nav {
     }
   }
   .footer-social-icon {
+    font-size: 24px;
     transition: all .3s;
     &:hover {
       transform: scale(1.2);

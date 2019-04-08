@@ -117,8 +117,10 @@ nav {
   text-align: right;
 }
 
-.home-about {
+.home-about-wrapper {
   position: relative;
+  width: 100%;
+  overflow: hidden;
 }
 
 .footer-social-icons {

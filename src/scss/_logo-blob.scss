@@ -74,8 +74,16 @@
 }
 
 .blob-right {
-	top: -12%;
-	right: 6%;
+	top: 48px;
+	right: 40px;
+	@include media-breakpoint-up(md) {
+		top: 48px;
+		right: 80px;
+	}
+	@include media-breakpoint-up(lg) {
+		top: 48px;
+		right: 112px;
+	}
 }
 
 @keyframes width {

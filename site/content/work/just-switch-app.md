@@ -7,12 +7,13 @@ roles: |
   Product Designer
 
   Front-End Developer
+workdate: 2017
 ---
 ### App design
 
-We made use of a simple colour palette to design many illustrative icons to help guide users through the app in a more engaging way. We also used colour to help indicate the path we wanted people to take most often in the journey.
-
 {{< figure src="/img/just-switch-app/jw-screens-1.jpg" alt="First screens" >}}
+
+We made use of a simple colour palette to design many illustrative icons to help guide users through the app in a more engaging way. We also used colour to help indicate the path we wanted people to take most often in the journey.
 
 {{< figure src="/img/just-switch-app/jw-icons-1.jpg" alt="Navigation icons" >}}
 

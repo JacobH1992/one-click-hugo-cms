@@ -143,11 +143,10 @@ nav {
 .about-logo-container {
   margin-top: 24px;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   flex-wrap: wrap;
-
   @include media-breakpoint-up(md) {
-    justify-content: space-around;
+    // justify-content: space-around;
   }
   @include media-breakpoint-up(lg) {
     margin-top: 0;
@@ -157,10 +156,10 @@ nav {
 
 .about-logo {
   margin-top: 32px;
-  width: 160px;
-  padding: 24px;
+  width: 120px;
+  padding: 16px;
   @include media-breakpoint-up(md) {
-    width: 180px;
+    width: 140px;
   }
   @include media-breakpoint-up(lg) {
     width: 120px;

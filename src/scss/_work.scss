@@ -120,16 +120,10 @@
     }
   }
   blockquote {
-    margin-top: 32px;
-    margin-bottom: 16px;
     p {
-      font-family: $body-font-family;
       font-size: 20px;
-      font-weight: 200;
-      font-style: italic;
-      background: $blue-mid;
+      color: $white-85;
       padding: 24px 64px 24px 32px !important;
-      border-left: 4px solid $blue-light;
       margin-bottom: 0;
       @include media-breakpoint-up(md) {
         padding: 32px 80px 32px 48px !important;
@@ -137,20 +131,14 @@
       }
     }
     cite, h2 {
-      padding-top: 12px;
+      padding-top: 8px;
       @extend .body-text;
-      text-align: right;
+      @extend .text-secondary;
       margin-bottom: 0;
-      font-style: normal;
     }
     &:before {
-      content: open-quote;
-      position: absolute;
       top: -36px;
       left: 32px;
-      font-size: 80px;
-      color: $blue-light;
-      z-index: 1;
     }
   }
 }

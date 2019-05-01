@@ -1,8 +1,12 @@
+.recent-work-title {
+  margin-bottom: 40px;
+}
+
 .work-cards {
-  margin-top: 12%; // offset negative margin
+  margin-top: 10%; // offset negative margin
   @include media-breakpoint-up(lg) {
     margin-top: 120px;
-    padding-bottom: 0;
+    // padding-bottom: 0;
   }
 }
 
@@ -74,5 +78,5 @@
 }
 
 .work-card-odd {
-  margin-top: -12%;
+  margin-top: -10%;
 }

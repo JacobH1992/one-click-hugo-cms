@@ -118,6 +118,7 @@ nav {
 }
 
 .home-about-wrapper {
+  // margin-top: 32px;
   position: relative;
   width: 100%;
   overflow: hidden;
@@ -135,8 +136,12 @@ nav {
     }
   }
   .footer-social-icon {
+    cursor: pointer;
     font-size: 24px;
     transition: all .3s;
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 }
 

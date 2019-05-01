@@ -19,7 +19,7 @@
 }
 
 
-.logo span, .blob span {
+.logo span {
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -63,8 +63,19 @@
 	position: absolute;
 	z-index: -1;
 	opacity: 0.1;
-	span {
-		background-color: $blue-light;
+  background: none;
+	background-color: $blue-light;
+  border-radius:30% 70% 70% 30% / 30% 30% 70% 70% ;
+  animation: morph 4s linear infinite alternate;
+	@include media-breakpoint-up(md) {
+		opacity: 0.2;
+		background: url('/img/jacob-hammond-me.png') center;
+		background-size: cover;
+	}
+	@include media-breakpoint-up(lg) {
+		opacity: 0.5;
+		background: url('/img/jacob-hammond-me.png') center;
+		background-size: cover;
 	}
 }
 
@@ -84,6 +95,13 @@
 		top: 48px;
 		right: 112px;
 	}
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 40% 60% 60% 40% / 70% 30% 70% 30%; }
+  100% {
+    border-radius: 40% 60%; }
 }
 
 @keyframes width {

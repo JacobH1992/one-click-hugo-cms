@@ -176,9 +176,19 @@ nav {
   }
 }
 
+footer {
+  padding: 16px 0 48px 0;
+}
+
+.footer-copyright {
+    margin-bottom: 0;
+}
+
 .footer-social-icons {
+  margin-top: 32px;
   @include media-breakpoint-up(sm) {
     text-align: right;
+    margin-top: 0px;
   }
   a {
     margin-right: 16px;
@@ -187,12 +197,11 @@ nav {
       margin-right: 0;
     }
   }
-  .footer-social-icon {
-    cursor: pointer;
-    font-size: 24px;
-    transition: all .3s;
+  svg {
+    width: 24px;
+    fill: $yellow-mid;
     &:hover {
-      transform: scale(1.2);
+      fill: $yellow-light;
     }
   }
 }

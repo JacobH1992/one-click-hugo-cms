@@ -3,7 +3,7 @@ title: "Jacob Hammond - Product Designer"
 description: A digital product designer working in London, UK with a focus on native mobile and responsive web experiences.
 image: /img/home-bg.jpg
 header:
-    heading: I'm Jacob — A digital Product Designer working in London, UK. I focus on native mobile and responsive web experiences.
+    heading: I'm Jacob — A lead Product Designer working in London, UK. I focus on native mobile and responsive web experiences.
     subheading: Currently I’m busy reinventing retirement and running Precise Pixels.
 about:
     heading: About me

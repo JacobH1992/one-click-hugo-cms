@@ -118,38 +118,33 @@ nav {
 }
 
 .home-about-wrapper {
-  // margin-top: 32px;
   position: relative;
   width: 100%;
   overflow: hidden;
+  @include media-breakpoint-up(md) {
+    margin-top: 32px;
+  }
 }
 
-.footer-social-icons {
-  @include media-breakpoint-up(sm) {
-    text-align: right;
+.about-quote-title {
+    margin-top: 32px;
+  @include media-breakpoint-up(md) {
+    margin-bottom: 0px;
   }
-  a {
-    margin-right: 16px;
-    @include media-breakpoint-up(sm) {
-      margin-left: 16px;
-      margin-right: 0;
-    }
-  }
-  .footer-social-icon {
-    cursor: pointer;
-    font-size: 24px;
-    transition: all .3s;
-    &:hover {
-      transform: scale(1.2);
-    }
+  @include media-breakpoint-up(lg) {
+    margin-top: 64px;
+    margin-bottom: 32px;
   }
 }
 
 .about-logo-container {
   margin-top: 32px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
+  @include media-breakpoint-up(sm) {
+    justify-content: space-between;
+  }
   @include media-breakpoint-up(md) {
     margin-top: 48px;
   }
@@ -178,5 +173,26 @@ nav {
   img {
     width: 100%;
     display: block;
+  }
+}
+
+.footer-social-icons {
+  @include media-breakpoint-up(sm) {
+    text-align: right;
+  }
+  a {
+    margin-right: 16px;
+    @include media-breakpoint-up(sm) {
+      margin-left: 16px;
+      margin-right: 0;
+    }
+  }
+  .footer-social-icon {
+    cursor: pointer;
+    font-size: 24px;
+    transition: all .3s;
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 }

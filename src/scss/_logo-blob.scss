@@ -68,14 +68,14 @@
   border-radius:30% 70% 70% 30% / 30% 30% 70% 70% ;
   animation: morph 4s linear infinite alternate;
 	@include media-breakpoint-up(md) {
-		opacity: 0.2;
+		opacity: 0.25;
 		background: url('/img/jacob-hammond-me.png') center;
 		background-size: cover;
 	}
 	@include media-breakpoint-up(lg) {
+	  width: 480px;
+	  height: 480px;
 		opacity: 0.5;
-		background: url('/img/jacob-hammond-me.png') center;
-		background-size: cover;
 	}
 }
 
@@ -88,8 +88,8 @@
 	top: 48px;
 	right: 40px;
 	@include media-breakpoint-up(md) {
-		top: 48px;
-		right: 80px;
+		top: 0px;
+		right: 0px;
 	}
 	@include media-breakpoint-up(lg) {
 		top: 48px;

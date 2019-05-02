@@ -1,16 +1,16 @@
 <section class="work-cards-container container container-pad">
-	<div class="row">
+	<!-- <div class="row">
 		<div class="col-sm-10 col-lg-8 offset-lg-1">
 			<h3 class="recent-work-title title-4 text-secondary">Recent work</h3>
 		</div>
-	</div>
+	</div> -->
 	<div class="row work-cards">
 		<!-- {{ range first 2 (where .Data.Pages "Type" "work") }}
 			{{ .Render "li"}}
 		{{ end }} -->
 		{{ range $i,$p := first 2 (where .Data.Pages "Type" "work") }}
 		  {{if not (modBool $i 2)}} <!--even-->
-			<div class="col-md-10 offset-md-1 col-lg-6 offset-lg-0">
+			<div class="col-lg-6">
 				<div class="work-card">
 					<a href="{{ .Permalink }}">
 						<div class="work-card-image" style="background-image: url('{{.Params.image}}');"></div>
@@ -19,7 +19,7 @@
 				</div>
 			</div>
 		  {{else}} <!--odd-->
-			<div class="col-md-10 offset-md-1 col-lg-6 offset-lg-0 work-card-odd">
+			<div class="col-lg-6 work-card-odd">
 				<div class="work-card">
 					<a href="{{ .Permalink }}">
 						<div class="work-card-image" style="background-image: url('{{.Params.image}}');"></div>

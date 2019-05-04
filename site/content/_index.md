@@ -8,10 +8,9 @@ header:
 about:
     heading: About me
     text: |
-
-      I'm involved in every step and iteration of a human-centred design process from research and discovery to visual design, production and validation.
-
-      My skills span user research and testing, interaction design, visual design, design systems, proposition development and design leadership.
+      I am a creative, fast thinking and passionate individual who loves designing human centred services, products and experiences. My skills span service design, user research and testing, interaction design, visual design, design systems, proposition development and design leadership.
 
       With experience in both agency and FinTech startups as well as large media, telecoms and financial services companies, I apply my skills and experience to solving problems for people and businesses.
+
+      My experience and understanding of development makes it natural for me to communicate and work closely with engineers and product teams and I'm most comfortable working with cross-functional agile teams.
 ---

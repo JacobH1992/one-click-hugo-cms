@@ -121,10 +121,22 @@
       @extend .body-text;
       @extend .text-secondary;
       margin-bottom: 0;
+      @include media-breakpoint-up(md) {
+        margin-left: 32px;
+      }
+      @include media-breakpoint-up(lg) {
+        margin-left: 0px;
+      }
     }
     &:before {
       top: -36px;
       left: 32px;
+      @include media-breakpoint-up(md) {
+        left: 96px;
+      }
+      @include media-breakpoint-up(lg) {
+        left: 32px;
+      }
     }
   }
 }

@@ -15,7 +15,7 @@ Tag posts?
 * Just Design System
 * Just LTM Service Design - post-its -> journeys -> prototype
 * Just IDP App - journeys, sketches/concepts, prototypes, deliverable
-* Retirement Checker App - desiging with users, paper prototypes, 
+* Retirement Checker App - desiging with users, paper prototypes,
 * TurnOut App
 * Tandem Website
 * Tandem Brand & Launch

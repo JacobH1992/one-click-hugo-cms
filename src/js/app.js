@@ -21,3 +21,13 @@ window.onload = function() {
 
 	lax.update(window.scrollY) // set initial positions
 }
+
+
+// Burger menu
+var burger = document.querySelector('.burger');
+var nav = document.querySelector('.nav');
+
+burger.onclick = function() {
+  console.log('nav toggled');
+  nav.classList.toggle('nav-active');
+}

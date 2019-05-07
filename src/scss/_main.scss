@@ -82,11 +82,11 @@ nav {
     height: 40px;
     background: red;
     z-index: 2;
-    @include media-breakpoint-up(sm) {
+    @include media-breakpoint-up(md) {
       top: 16px;
       right: 48px;
     }
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       display: none;
     }
   }
@@ -101,11 +101,10 @@ nav {
   list-style: none;
   background: $blue-dark;
   padding: 30% 0;
-  // opacity: 0.8;
   z-index: 2;
   display: none;
   text-align: center;
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     display: flex;
     float: right;
     position: relative;
@@ -143,6 +142,10 @@ nav {
       bottom: -12px;
     }
   }
+}
+
+.nav-active {
+  display: block !important;
 }
 
 .home-work-link {

@@ -8,10 +8,27 @@
 			{{ range .Params.contact_entries }}
 			<p>{{ .text }}</p>
 			{{ end }}
-			{{ partial "contact-form" . }}
 		</div>
 	</div>
+	<div class="row">
+		<div class="col-md-6 offset-md-1">
+		<h2>Get in touch</h2>
+		<form action="">
+		<fieldset>
+			<label for="name">Name</label>
+			<input type="text" id="name" placeholder="Name">
+		</fieldset>
+		<fieldset>
+			<label for="email">Email</label>
+			<input type="email" id="email" placeholder="Email">
+		</fieldset>
+		<fieldset>
+			<label for="message">Your message</label><br>
+			<textarea name="name" placeholder="Enter your message here" rows="8" cols="60" id="message"></textarea>
+		</fieldset>
+			<button type="submit" class="btn">Submit</button>
+		</form>
+	</div>
 </section>
-
 
 {{ end }}

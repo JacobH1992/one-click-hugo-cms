@@ -1,0 +1,33 @@
+fieldset {
+    margin-bottom: 24px;
+}
+
+input[type=text], input[type=email], textarea, select {
+    // max-width: 280px;
+    width: 100%;
+    padding: 12px 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+label {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.btn {
+    // width: 280px;
+    background: $blue-light;
+    border: none;
+    padding: 16px 48px;
+    font-size: 18px;
+    line-height: 24px;
+    border-radius: 32px;
+    font-family: $display-font-family;
+    color: $white;
+    &:hover {
+        background: $blue-light;
+        color: $blue-mid;
+    }
+}

@@ -241,3 +241,12 @@ footer {
     }
   }
 }
+
+.btn-point i {
+  padding-right: 4px;
+  transition: all .3s ease-out;
+}
+
+.btn-point:hover i {
+  transform: translateX(4px);
+}

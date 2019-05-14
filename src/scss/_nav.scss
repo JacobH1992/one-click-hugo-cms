@@ -77,23 +77,33 @@ nav {
 }
 
 .burger {
-    position: absolute;
-    right: 16px;
-    top: 4px;
-    width: 40px;
-    height: 48px;
-    // background: $blue-mid;
+    position: fixed;
+    right: 0px;
+    top: 40px;
+    width: 118px;
+    height: 56px;
+    padding: 0 12px;
+    background: $blue-mid;
     margin-bottom: 0;
     cursor: pointer;
     z-index: 2;
-    text-align: center;
     transition: all .3s;
+    &:after {
+        content: 'Menu';
+        position: absolute;
+        right: 12px;
+        top: 14px;
+        font-size: 16px;
+        font-weight: $font-weight-regular;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
     svg {
         width: 40px;
         height: 48px;
         margin-top: 4px;
+        // text-align: center;
         display: inline-block;
-        vertical-align: middle;
     }
     svg path {
         stroke: $white;
@@ -105,8 +115,7 @@ nav {
         will-change: transform, opacity;
     }
     @include media-breakpoint-up(sm) {
-        top: 4px;
-        right: 48px;
+        top: 48px;
     }
     @include media-breakpoint-up(md) {
     }

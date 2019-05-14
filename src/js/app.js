@@ -28,6 +28,7 @@ var burger = document.querySelector('.burger');
 var nav = document.querySelector('nav');
 
 burger.onclick = function() {
-  console.log('nav toggled');
+  //console.log('nav toggled');
   nav.classList.toggle('nav-active');
+  nav.classList.toggle('burger-active');
 }

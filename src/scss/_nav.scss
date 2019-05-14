@@ -6,23 +6,7 @@ nav {
     @include media-breakpoint-up(sm) {
       margin: 48px 0 64px 0;
     }
-    .burger {
-      position: absolute;
-      top: 12px;
-      right: 16px;
-      width: 40px;
-      height: 40px;
-      background: red;
-      z-index: 2;
-      @include media-breakpoint-up(md) {
-        top: 16px;
-        right: 48px;
-      }
-      @include media-breakpoint-up(lg) {
-        display: none;
-      }
-    }
-  }
+}
   
   .nav {
     position: fixed;
@@ -83,16 +67,69 @@ nav {
             bottom: -12px;
         }
     }
-  }
-  
-  .nav-active {  
-    .burger {
-        position: fixed;
-        top: 44px;
-    }
+}
+
+.nav-active {
     .nav {
         visibility: visible;
         opacity: 1;
         padding-top: 30%;
+    }
+}
+
+.burger {
+    position: fixed;
+    top: 32px;
+    right: 15px;
+    width: 56px;
+    height: 56px;
+    background: $blue-mid;
+    cursor: pointer;
+    z-index: 2;
+    text-align: center;
+    transition: all .3s;
+    svg {
+        width: 40px;
+        height: 48px;
+        margin-top: 4px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    svg path {
+        stroke: $white;
+        stroke-width: 8;
+        stroke-linecap: round;
+        transition: all .3s ease-in-out;
+        transform: rotate(0deg);
+        transform-origin: 50% 50%;
+        will-change: transform, opacity;
+    }
+    @include media-breakpoint-up(sm) {
+        top: 52px;
+        right: 59px;
+    }
+    @include media-breakpoint-up(md) {
+        right: 54px;
+    }
+    @include media-breakpoint-up(lg) {
+        display: none;
+    }
+}
+
+.burger-active {
+    .burger {
+        background: $blue-mid;
+    }
+    svg path:nth-child(1) {
+        opacity: 0;
+    }
+    svg path:nth-child(4) {
+        opacity: 0;
+    }
+    svg path:nth-child(2) {
+        transform: rotate(45deg);
+    }
+    svg path:nth-child(3) {
+        transform: rotate(-45deg);
     }
 }

@@ -26,8 +26,35 @@ label {
     border-radius: 32px;
     font-family: $display-font-family;
     color: $white;
+    position: relative;
+    transition: all .3s ease-out;
     &:hover {
-        background: $blue-light;
-        color: $blue-mid;
+        transform: scale(1.05);
+    }
+    &:before {
+		content: '';
+		position: absolute;
+		border: $blue-light solid 4px;
+        border-radius: 40px;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+        animation-duration: 1s;
+	}
+    &:hover:before,
+	&:focus:before,
+	&:active:before {
+        animation-name: ripple;
     }
 }
+
+@keyframes ripple {
+    100% {
+          top: -(6px + 6px);
+          right: -(6px + 6px);
+          bottom: -(6px + 6px);
+          left: -(6px + 6px);
+          opacity: 0;
+      }
+  }

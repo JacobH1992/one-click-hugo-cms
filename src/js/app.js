@@ -1,6 +1,7 @@
+// JS Goes here - ES6 supported
+
 import lax from "lax.js"
 
-// JS Goes here - ES6 supported
 if (window.netlifyIdentity) {
   window.netlifyIdentity.on("init", user => {
     if (!user) {
@@ -22,10 +23,9 @@ window.onload = function() {
 	lax.update(window.scrollY) // set initial positions
 }
 
-
 // Burger menu
 var burger = document.querySelector('.burger');
-var nav = document.querySelector('.nav');
+var nav = document.querySelector('nav');
 
 burger.onclick = function() {
   console.log('nav toggled');

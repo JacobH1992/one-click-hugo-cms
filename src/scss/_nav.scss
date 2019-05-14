@@ -23,17 +23,14 @@ nav {
     opacity: 0;
     transition: all 0.4s ease-in-out;
     @include media-breakpoint-up(lg) {
-      display: flex;
-      float: right;
-      position: relative;
-      width: auto;
-      height: auto;
-      padding: 0 !important;
-      text-align: left;
-      background: none;
-      visibility: visible;
-      opacity: 1;
-      transition: none !important;
+        height: auto;
+        position: absolute;
+        padding: 0 48px 0 0 !important;
+        text-align: right;
+        background: none;
+        visibility: visible;
+        opacity: 1;
+        transition: none !important;
     }
     .nav-item {
         padding: 16px 0 16px 0;
@@ -43,6 +40,7 @@ nav {
         @include media-breakpoint-up(lg) {
             padding: 0 0 0 32px;
             visibility: visible;
+            display: inline;
         }
         a {
             color: $blue-light;
@@ -52,10 +50,10 @@ nav {
             line-height: 80px;
             text-transform: uppercase;
             text-decoration: none;
-        @include media-breakpoint-up(md) {
-            font-size: 18px;
-            letter-spacing: 1.2px;
-        }
+            @include media-breakpoint-up(md) {
+                font-size: 18px;
+                letter-spacing: 1.2px;
+            }
         &:hover {
             color: $blue-accent;
             text-decoration: none;
@@ -78,12 +76,13 @@ nav {
 }
 
 .burger {
-    position: fixed;
-    top: 32px;
-    right: 15px;
-    width: 56px;
-    height: 56px;
-    background: $blue-mid;
+    position: absolute;
+    right: 16px;
+    top: 0px;
+    width: 40px;
+    height: 48px;
+    // background: $blue-mid;
+    margin-bottom: 0;
     cursor: pointer;
     z-index: 2;
     text-align: center;
@@ -105,11 +104,10 @@ nav {
         will-change: transform, opacity;
     }
     @include media-breakpoint-up(sm) {
-        top: 52px;
-        right: 59px;
+        top: 4px;
+        right: 48px;
     }
     @include media-breakpoint-up(md) {
-        right: 54px;
     }
     @include media-breakpoint-up(lg) {
         display: none;
@@ -117,9 +115,6 @@ nav {
 }
 
 .burger-active {
-    .burger {
-        background: $blue-mid;
-    }
     svg path:nth-child(1) {
         opacity: 0;
     }

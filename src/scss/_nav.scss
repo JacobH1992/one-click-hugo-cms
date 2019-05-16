@@ -79,9 +79,9 @@ nav {
 .burger {
     position: fixed;
     right: 0px;
-    top: 40px;
-    width: 118px;
-    height: 56px;
+    top: 42px;
+    width: 112px;
+    height: 48px;
     padding: 0 12px;
     background: $blue-mid;
     margin-bottom: 0;
@@ -92,15 +92,15 @@ nav {
         content: 'Menu';
         position: absolute;
         right: 12px;
-        top: 14px;
+        top: 11px;
         font-size: 16px;
         font-weight: $font-weight-regular;
         letter-spacing: 1px;
         text-transform: uppercase;
     }
     svg {
-        width: 40px;
-        height: 48px;
+        width: 32px;
+        height: 40px;
         margin-top: 4px;
         // text-align: center;
         display: inline-block;

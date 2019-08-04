@@ -10,6 +10,8 @@ workdate: 2015
 
 I spent 7 months on-site with Dixons Carphone as part of the team designing their award-winning in-store customer facing ‘PinPoint’ app.
 
-{{< youtube Jmbm2jMY2S8 >}}
+https://www.youtube.com/watch?v=Jmbm2jMY2S8
 
-{{< youtube SheV6FKO6gM >}}
+https://www.youtube.com/watch?v=SheV6FKO6gM
+
+Comming soon...

@@ -20,13 +20,14 @@ Anyone could become a Co-Founder and each one got a share in the bank and their 
 {{< figure src="/img/tdm-brand/tdm-agb-app.jpg" alt="A Good Bank App" >}}
 
 ---
-
 ### Stronger together
 
 For the next six months, we set about defining the brand for the new bank. I was involved in and helped facilitate numerous workshops, Co-Founder events and testing sessions with {{% a_blank "Wolff Olins" "http://www.wolffolins.com/" %}} and other Tandem employees. We explored multiple names and directions before finding 'Tandem'.
+
 {{< figure src="/img/tdm-brand/tdm-teaser-logo.jpg" alt="Tandem Logo" >}}
 
 The output from working with Wolff Olins was a 'minimal viable brand' and a set of guidelines that the Tandem team could take and evolve over time. The guidelines included brand principles, a logo, a new font, colour palette, typography, photography and iconography styles, TOV principles and user personas.
+
 {{< figure src="/img/tdm-brand/tdm-teaser-font.jpg" alt="Tandem Hand Font" >}}
 {{< figure src="/img/tdm-brand/tandem-teaser-guidelines.jpg" alt="Tandem Guidelines" >}}
 
@@ -38,7 +39,6 @@ The brand expression was born from the collaboration with Co-Founders. This is e
 ---
 
 ---
-
 ### Launch website
 
 Eager to show off our new brand, we decided to design and build a responsive teaser website. The site's main aim was to act as a destination for people who wanted to join the Co-Founder community. It also had to demonstrate that Tandem was something new and refreshing for the world of banking.

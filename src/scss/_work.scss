@@ -69,6 +69,12 @@
     @extend .col-lg-8;
     @extend .offset-lg-2;
     @extend .offset-lg-0;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    @include media-breakpoint-up(md) {
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
   }
   figure {
     margin-top: 24px;
@@ -96,7 +102,7 @@
       @extend .offset-lg-0;
     }
   }
-  ul {
+  ul, ol {
     @extend .col-lg-7;
     @extend .offset-lg-2;
     @extend .body-text;

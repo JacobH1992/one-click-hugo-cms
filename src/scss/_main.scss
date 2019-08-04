@@ -67,8 +67,10 @@ body {
 }
 
 .home-work-link {
-  margin-top: 16px;
   text-align: right;
+  @include media-breakpoint-up(md) {
+    margin-top: 16px;
+  }
 }
 
 .home-about-wrapper {

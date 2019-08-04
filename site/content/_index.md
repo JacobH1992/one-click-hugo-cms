@@ -4,7 +4,7 @@ description: A digital product designer working in London, UK with a focus on na
 image: /img/home-bg.jpg
 header:
     heading: I'm Jacob — A lead Product Designer working in London, UK. I focus on native mobile and responsive web experiences.
-    subheading: Currently I’m busy reinventing retirement and running Precise Pixels.
+    subheading: Right now i'm looking for new opportunities whilst travelling around Australia, NZ and Asia.
 about:
     heading: About me
     text: |

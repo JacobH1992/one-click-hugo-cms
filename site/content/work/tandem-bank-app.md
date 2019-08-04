@@ -10,7 +10,7 @@ roles: |
 workdate: 2016 - 2018
 ---
 
-Work in progress (detailed case study available)
+Work in progress (detailed keynote available)
 
 ### Background
 
@@ -25,7 +25,7 @@ They are characterised by some common traits:
 {{< figure src="/img/tdm-app/persona.jpg" alt="Live for the moment persona" >}}
 
 ---
-### User journeys
+### The App
 
 {{< figure src="/img/tdm-app/app-overview.jpg" alt="Tandem App" >}}
 

@@ -5,9 +5,7 @@ description: >-
   Discover the best event for your night out.
 image: /img/cover/turn-out-app.png
 roles: |
-  Product Designer
-
-  Front-End Developer
+  Design Lead
 workdate: 2017
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Just Switch! App"
-date: 2018-01-04T15:04:10.000Z
+date: 2018-01-03T15:04:10.000Z
 description: A free app to help you switch your energy supplier and save £100s in minutes.
 image: /img/cover/just-switch-app.jpg
 roles: |

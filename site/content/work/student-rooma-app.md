@@ -5,9 +5,7 @@ description: >-
   Matching students to their perfect room.
 image: /img/cover/student-rooma.jpg
 roles: |
-  Product Designer
-
-  Front-End Developer
+  Design Lead
 workdate: 2017
 ---
 

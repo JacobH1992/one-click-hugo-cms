@@ -1,14 +1,17 @@
 ---
-title: "Tandem App"
-date: 2018-01-04T15:04:10.000Z
+title: "Tandem Bank App"
+date: 2018-02-04T15:04:10.000Z
 description: An app that combines banking products, money management and helpful money saving features.
-image: /img/cover/tandem-app.png
+image: /img/cover/tandem-app.jpg
 roles: |
   Product designer
 
   Font-end developer
 workdate: 2016 - 2018
 ---
+
+Work in progress (detailed case study available)
+
 ### Background
 
 Tandem is on a mission to build a new kind of bank; one that always puts the customer first. Generally, Tandem is aimed at a millennial audience, but in-depth research and consumer segmentation carried out by Tandem’s insights team lead to the target customer for Tandem’s initial launch being the ‘Live for the moment’ segment.

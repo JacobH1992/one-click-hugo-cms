@@ -1,8 +1,8 @@
 ---
 title: "Just Switch! App"
-date: 2016-12-17T15:04:10.000Z
+date: 2018-01-04T15:04:10.000Z
 description: A free app to help you switch your energy supplier and save £100s in minutes.
-image: /img/cover/just-switch-app.png
+image: /img/cover/just-switch-app.jpg
 roles: |
   Product Designer
 
@@ -64,15 +64,19 @@ The energy suppliers were sorted to show the ones that achieved the most savings
 
 {{< figure src="/img/just-switch-app/jw-screens-5.jpg" alt="Form packets" >}}
 
-Due to density of information required from the user to switch suppliers, we designed what we called form 'packets' - we organised all required inputs into taxonomies to break the form into more manageable parts. Each 'packet' is then shown to the user one at a time. The 'packets' can then be 'entered' to reveal the related inputs. When complete the user existed from the packet to the previous screen. We also show a progress bar to inform the user of their progression through the overall form.
+Due to density of information required from the user to switch suppliers, we designed what we called form 'packets' - we organised all required inputs into taxonomies to break the form into more manageable parts. Each 'packet' is then shown to the user one at a time. The 'packets' can then be 'entered' to reveal the related inputs. When complete the user returns to the previous screen. We also show a progress bar to inform the user of their progression through the overall form.
 
+{{< figure src="/img/just-switch-app/jw-screens-6.jpg" alt="Form packets" >}}
+
+The final part of the journey is to confirm the switch. The user must agree to the terms and condiitons of switching to the new supplier and provide an e-signature. The final screen reminds the user of how much money they could be saving and who they switched to. The screen also shows status updates when the app is returned to.
 
 ---
 ### Landing page and marketing
 
-A simple landing page was built to help market the app.
+A simple landing page was built to help market the app and it was advertised on facebook and twitter.
 
 <div class="video-wrapper"><video class="video" poster="https://thumbs.gfycat.com/RipeOrdinaryBlackfly.webp" autoplay="" muted="" loop="" title="">
 <source src="https://giant.gfycat.com/RipeOrdinaryBlackfly.webm" type="video/webm">
 <img title="Sorry, your browser doesn't support HTML5 video." src="https://thumbs.gfycat.com/ThickOffensiveAltiplanochinchillamouse.jpg">
 </video></div>
+

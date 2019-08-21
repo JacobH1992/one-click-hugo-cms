@@ -151,3 +151,14 @@
     }
   }
 }
+
+.youtube {
+  width: 100%;
+  height: 280px;
+  @include media-breakpoint-up(md) {
+    height: 360px; 
+  }
+  @include media-breakpoint-up(xl) {
+    height: 440px; 
+  }
+}

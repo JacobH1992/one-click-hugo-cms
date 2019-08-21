@@ -8,7 +8,13 @@ roles: |
 workdate: 2015
 ---
 
+### About
+
 I spent 7 months on-site with Dixons Carphone as part of the team designing their award-winning in-store customer facing ‘PinPoint’ app.
+
+The app was designed for tablet and to be used in-store with a sales assistant.
+
+<p><iframe class="youtube" src="https://www.youtube-nocookie.com/embed/Jmbm2jMY2S8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 https://www.youtube.com/watch?v=Jmbm2jMY2S8
 

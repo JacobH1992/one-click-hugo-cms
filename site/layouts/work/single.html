@@ -20,36 +20,46 @@
   </div>
 </header>
 
-<div class="container container-pad">
+<section class="container container-pad">
   <div class="work-content row">
       {{ .Content }}
-      <hr>
   </div>
-</div>
+</section>
+
+<section class="container container-pad">
+  <div class="row">
+    <div class='col-md-8'>
+      <h3 class="title-4 text-secondary">Credits</h3>
+      <p>{{ .Params.credits }}</p>
+    </div>
+  </div>
+</section>
+
+<hr>
 
 <div class="container">
   <div class="row">
-    <div class="col-md-5">
+    <div class="col-md-6 col-xl-5">
       {{ with .NextInSection }}
       <p class="title-4 text-secondary">Previous project</p>
-      	<div class="work-card">
-      		<a href="{{ .Permalink }}">
-      			<div class="work-card-image work-card-image-nav" style="background-image: url('{{.Params.image}}');"></div>
-      			<div class="work-card-text">{{ .Title }}</div>
-      		</a>
-      	</div>
+        <div class="work-card">
+          <a href="{{ .Permalink }}">
+            <div class="work-card-image work-card-image-nav" style="background-image: url('{{.Params.image}}');"></div>
+            <div class="work-card-text">{{ .Title }}</div>
+          </a>
+        </div>
       {{ end }}
     </div>
 
-    <div class="col-md-5 offset-md-2">
+    <div class="col-md-6 col-xl-5 offset-xl-2">
       {{ with .PrevInSection }}
-      <p class="title-4 text-secondary" style="text-align: right;">Next project</p>
-      	<div class="work-card">
-      		<a href="{{ .Permalink }}">
-      			<div class="work-card-image work-card-image-nav" style="background-image: url('{{.Params.image}}');"></div>
-      			<div class="work-card-text">{{ .Title }}</div>
-      		</a>
-      	</div>
+      <p class="title-4 text-secondary">Next project</p>
+        <div class="work-card work-card-previous">
+          <a href="{{ .Permalink }}">
+            <div class="work-card-image work-card-image-nav" style="background-image: url('{{.Params.image}}');"></div>
+            <div class="work-card-text">{{ .Title }}</div>
+          </a>
+        </div>
       {{ end }}
     </div>
   </div>

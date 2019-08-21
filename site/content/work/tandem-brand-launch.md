@@ -8,6 +8,7 @@ roles: |
 
   Front-end developer
 workdate: 2016
+credits: As the first member of the Tandem Design team I was involved in many aspects of the brand creation. However, the Tandem brand and resulting assets are the result of a big collaborative effort from the Wolff Olins team, Co-Founders and Tandem employees, notably John Alderson, Ricky Knox and the .
 ---
 ### Starting out
 

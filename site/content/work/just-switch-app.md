@@ -8,6 +8,7 @@ roles: |
 
   Front-End Developer
 workdate: 2017
+credits: As the initial designer, I was heavily involved in all aspects of the app design from research to visual design. However, this work was also a collaborative effort with the talented John Alderson and Christoph Backoefer.
 ---
 ### About
 
@@ -20,14 +21,13 @@ The app allows the user to see a quick estimate of how much they could save each
 ---
 ### Quick estimate
 
-We believed that if the user could see how much they could be saving as soon as possible that it would be the hook we needed for them to continue through the journey and spend time entering more detailed information.
+We believed that if the user saw how much they could be saving as soon as possible that it would act as the motivation they needed for them to continue through the journey and spend time entering more detailed information.
 
 In order to provide a quick estimate we needed to collect the user's postcode, gas and/or electricity suppliers, basic details about where they live and how they use their energy.
 
 {{< figure src="/img/just-switch-app/jw-screens-1.jpg" alt="Entering basic information" >}}
 
-
-Inspired by the 'wizard' form design pattern, each major step or input from the user was split into an individual screen in order to heighten focus and create a faster sense of progression. A single instruction or question was presented at the top of each screen followed by an input method designed to best suit the type of information we needed to collect.
+Inspired by the 'wizard' form design pattern, each major step or input from the user was split into individual screens in order to heighten focus and create a faster sense of progression. A single instruction or question was presented at the top of each screen followed by an input method designed to best suit the type of information we needed to collect. For example, we used quickly recognisable energy company logos rather than a list of names to make selection easier and faster for the user.
 
 {{< figure src="/img/just-switch-app/jw-screens-2.jpg" alt="Showing a quick estimate" >}}
 
@@ -79,4 +79,3 @@ A simple landing page was built to help market the app and it was advertised on 
 <source src="https://giant.gfycat.com/RipeOrdinaryBlackfly.webm" type="video/webm">
 <img title="Sorry, your browser doesn't support HTML5 video." src="https://thumbs.gfycat.com/ThickOffensiveAltiplanochinchillamouse.jpg">
 </video></div>
-

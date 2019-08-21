@@ -43,13 +43,9 @@
     }
   }
   .work-card-image-nav {
-    height: 280px;
     background-position: center;
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(xl) {
       height: 280px;
-    }
-    @include media-breakpoint-up(lg) {
-      height: 240px;
     }
   }
   .work-card-text {

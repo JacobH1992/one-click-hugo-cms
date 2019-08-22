@@ -8,7 +8,7 @@ roles: |
 
   Front-end developer
 workdate: 2016
-credits: As the first member of the Tandem Design team I was involved in many aspects of the brand creation. However, the Tandem brand and resulting assets are the result of a big collaborative effort from the Wolff Olins team, Co-Founders and Tandem employees, notably John Alderson, Ricky Knox and the .
+credits: As the first member of the Tandem Design team I was involved in many aspects of the brand creation. However, the Tandem brand and resulting assets are the result of a big collaborative effort from the Wolff Olins team, Co-Founders and Tandem employees, notably John Alderson, Ricky Knox, Michael Noonan and .
 ---
 ### Starting out
 
@@ -22,6 +22,8 @@ Anyone could become a Co-Founder and each one got a share in the bank and their 
 
 ---
 ### Stronger together
+
+{{< figure src="/img/tdm-brand/tdm-teaser-workshops.jpg" alt="Brand workshop" >}}
 
 For the next six months, we set about defining the brand for the new bank. I was involved in and helped facilitate numerous workshops, Co-Founder events and testing sessions with {{% a_blank "Wolff Olins" "http://www.wolffolins.com/" %}} and other Tandem employees. We explored multiple names and directions before finding 'Tandem'.
 

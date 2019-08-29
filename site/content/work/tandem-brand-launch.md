@@ -23,15 +23,16 @@ Anyone could become a Co-Founder and each one got a share in the bank and their 
 ---
 ### Stronger together
 
-{{< figure src="/img/tdm-brand/tdm-teaser-workshops.jpg" alt="Brand workshop" >}}
+<!-- {{< figure src="/img/tdm-brand/tdm-teaser-workshops.jpg" alt="Brand workshop" >}} -->
 
 For the next six months, we set about defining the brand for the new bank. I was involved in and helped facilitate numerous workshops, Co-Founder events and testing sessions with {{% a_blank "Wolff Olins" "http://www.wolffolins.com/" %}} and other Tandem employees. We explored multiple names and directions before finding 'Tandem'.
 
 {{< figure src="/img/tdm-brand/tdm-teaser-logo.jpg" alt="Tandem Logo" >}}
 
+{{< figure src="/img/tdm-brand/tdm-teaser-font.jpg" alt="Tandem Hand Font" >}}
+
 The output from working with Wolff Olins was a 'minimal viable brand' and a set of guidelines that the Tandem team could take and evolve over time. The guidelines included brand principles, a logo, a new font, colour palette, typography, photography and iconography styles, TOV principles and user personas.
 
-{{< figure src="/img/tdm-brand/tdm-teaser-font.jpg" alt="Tandem Hand Font" >}}
 {{< figure src="/img/tdm-brand/tandem-teaser-guidelines.jpg" alt="Tandem Guidelines" >}}
 
 The brand expression was born from the collaboration with Co-Founders. This is embodied in the logo and all other graphic elements. The hand-drawn line is the basis for the typeface, icons and other elements used across brand communications and digital products.
@@ -56,9 +57,10 @@ One of the first ideas we had for the brand was to use the conjunction of 'AND',
 <img title="Sorry, your browser doesn't support HTML5 video." src="https://thumbs.gfycat.com/ThickOffensiveAltiplanochinchillamouse.jpg">
 </video></div>
 
-{{< figure src="/img/tdm-brand/tdm-teaser-mobile.jpg" alt="Tandem Teaser Website" >}}<br>
+{{< figure src="/img/tdm-brand/tdm-teaser-mobile.jpg" alt="Tandem Teaser Website" >}}
 
 We designed and developed an animated photo grid. The grid generates a unique composition of Co-Founder photos for each visitor, with synced messaging and transitions, and allowed us to represent the diversity of the Co-Founder community. All of the images used on the site are of real members of the Co-Founder community.
-{{< figure src="/img/tdm-brand/tdm-teaser-blog.jpg" alt="Tandem Teaser Blog" >}}<br>
+
+{{< figure src="/img/tdm-brand/tdm-teaser-blog.jpg" alt="Tandem Teaser Blog" >}}
 
 The website was later expanded to include an about page and a blog. It was used for around 8 months and contributed to roughly 6,000 Co-Founder sign-ups. It also acted as a point of reference for the press or investors. It was the first public display of the Tandem brand, successfully setting us apart from our competition.

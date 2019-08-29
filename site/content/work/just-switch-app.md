@@ -16,7 +16,7 @@ Just Switch! is an iOS app designed and built to help understand a user's willin
 
 {{< figure src="/img/just-switch-app/jw-logo.jpg" alt="JustSwitch! logo" >}}
 
-The app allows the user to see a quick estimate of how much they could save each year if they switched their energy supplier, the option to refine their details to get a more accurate estimate and finally the ability to actually swtich their energy supplier - without ever leaving the app. The app was designed to have an emphasis on speed and minimal information entry from the user.
+The app allows the user to see a quick estimate of how much they could save each year if they switched their energy supplier, the option to refine their details to get a more accurate estimate and finally the ability to actually switch their energy supplier - without ever leaving the app. The app was designed to have an emphasis on speed and minimal information entry from the user.
 
 ---
 ### Quick estimate
@@ -31,9 +31,9 @@ Inspired by the 'wizard' form design pattern, each major step or input from the 
 
 {{< figure src="/img/just-switch-app/jw-screens-2.jpg" alt="Showing a quick estimate" >}}
 
-To make selection fast for the user when telling us about their home, we designed simple sliders with illustrative icons. This allowed the user to select their options with minimal effort by swiping left or right. The most common options were also pre-selected to reduce fricton for the most prevalent type of user.
+To make selection fast for the user when telling us about their home, we designed simple sliders with illustrative icons. This allowed the user to select their options with minimal effort by swiping left or right. The most common options were also pre-selected to reduce friction for the most prevalent type of user.
 
-A quick estimate was displayed aftering providing this information. We displayed it as an animated overlay on top of the next screen that would disapear when tapped. This was to partly act as a moment of delight for the user, rewarding them for getting this far, but also to encourage progression to the next part of the app.
+A quick estimate was displayed after providing this information. We displayed it as an animated overlay on top of the next screen that would disappear when tapped. This was to partly act as a moment of delight for the user, rewarding them for getting this far, but also to encourage progression to the next part of the app.
 
 ---
 ### Refining the estimate
@@ -43,7 +43,7 @@ After the estimate, regulation dictated that the user had to be the one to selec
 - Provide more information on their energy usage in KWh
 - Enter how much they pay each month
 - Come back later (for which we would set a reminder)
-- Procede with an estimation based on information they had already provided
+- Proceed with an estimation based on information they had already provided
 
 {{< figure src="/img/just-switch-app/jw-screens-3.jpg" alt="Adding details about energy usage" >}}
 
@@ -68,7 +68,7 @@ Due to density of information required from the user to switch suppliers, we des
 
 {{< figure src="/img/just-switch-app/jw-screens-6.jpg" alt="Form packets" >}}
 
-The final part of the journey is to confirm the switch. The user must agree to the terms and condiitons of switching to the new supplier and provide an e-signature. The final screen reminds the user of how much money they could be saving and who they switched to. The screen also shows status updates when the app is returned to.
+The final part of the journey is to confirm the switch. The user must agree to the terms and conditions of switching to the new supplier and provide an e-signature. The final screen reminds the user of how much money they could be saving and who they switched to. The screen also shows status updates when the app is returned to.
 
 ---
 ### Landing page and marketing

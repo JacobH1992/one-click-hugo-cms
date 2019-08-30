@@ -91,7 +91,8 @@
     }
   }
   .video-wrapper {
-    margin-top: 32px;
+    margin-top: 24px;
+    margin-bottom: -8px;
     @extend .col-lg-10;
     @extend .offset-lg-1;
   }

@@ -16,7 +16,7 @@ Tandem is a 'challenger' bank that combines traditional banking products such as
 
 {{< figure src="/img/tdm-app/app-overview.jpg" alt="Tandem App" >}}
 
-The app for launch gives users the opportunity to connect their existing bank accounts to the app (aggregation) as well as use their new Tandem banking products - this gives users a more holistic view of their finances and Tandem a way to offer new ways for them to save money.
+The app for launch gave users the opportunity to connect their existing bank accounts to the app (aggregation) as well as use their new Tandem banking products - this gives users a more holistic view of their finances and Tandem a way to offer new ways for them to save money.
 
 ---
 ### Target users
@@ -38,52 +38,37 @@ The app and products for launch were co-designed with members of this segment, s
 ---
 ### Journeys & Interaction
 
-Hundreds of user journeys and interaction patterns had to be designed and tested in order to piece the app together. One of the most complex areas of the app to design were the application forms for savings accounts and credit cards. It was designed to be cross-platform so it worked as a responsive website as well as for iOS and Android.
+Hundreds of user journeys and interaction patterns had to be designed and tested in order to piece the app together. Some of the most complex areas of the app to design were the application forms for savings accounts and credit cards. The forms were designed to be cross-platform for iOS, Android and responsive web.
 
-{{< figure src="/img/tdm-app/tdm-journey-originations.jpg" alt="Originations process flow and wireframes" >}} 
+{{< figure src="/img/tdm-app/tdm-journey-process.jpg" alt="Originations process flow and wireframes" >}} 
 
-For the applications, lots of personal information needed to be collected from the user. I was one of three designers that tackled these journeys for both Tandem’s savings products and credit card products. A good understanding of the back-end process was required to work with engineers to enhance and push the journeys to be the best they could be. 
+I was one of three designers that tackled these journeys for both Tandem’s savings products and credit card products. We started with the operational process flows that had already been put together and ran workshops with subject matter experts to map out 'dream' scenarios for each journey. Once we had our 'dream' journeys we overlayed any technical and regulatory constraints and started to put together wireframes.
+
+{{< figure src="/img/tdm-app/tdm-journey-originations.jpg" alt="Savings originations flow" >}} 
+
+Lots of personal information needed to be collected from the user during the application and the order that we collected this information was important. I worked closely with engineers to understand back-end processes and shape how this information should be collected from users in both the UI and the client.
 
 {{< figure src="/img/tdm-app/tdm-screens.jpg" alt="Form design screens" >}}
 
 Every part of the form design from structure to copywriting was considered, prototyped and iterated on heavily. Form features such as setting expectations up-front, progress indication, autofilling information, clarity of copy and validation were all added to give the user the best experience.
-<div class="video-wrapper"><video class="video" poster="https://thumbs.gfycat.com/MildFaroffEnglishpointer.jpg" autoplay="" muted="" loop="" title="">
+<div><div class="video-wrapper"><video class="video" poster="https://thumbs.gfycat.com/MildFaroffEnglishpointer.jpg" autoplay="" muted="" loop="" title="">
 <source src="https://giant.gfycat.com/MildFaroffEnglishpointer.webm" type="video/webm">
 <source src="https://giant.gfycat.com/MildFaroffEnglishpointer.mp4" type="video/mp4">
 <img title="Sorry, your browser doesn't support HTML5 video." src="https://thumbs.gfycat.com/MildFaroffEnglishpointer.jpg">
-</video></div><br>
+</video></div></div>
 
-It was important for Tandem to stand out from traditional banks and the first-time experience of applying to one of their products was one of the first opportunities to do so. To hone in on this we added 'moments of delight' throughout the form - these were moments that brought to life Tandem's personality and delivered a more uniquely Tandem experience. One feature of the Tandem credit card was that you could choose from 4 colours so this was one such moment we invested in making particularly 'delightful' for the user when applying.
+To further stand out from traditional banks we added 'moments of delight' throughout the applications - these were moments that brought to life Tandem's personality and delivered a more uniquely Tandem experience. One feature of the Tandem credit card was that you could choose from 4 colours so this was one such moment we invested in making particularly 'delightful' for the user when applying.
 
-[moment of delight - if not merge with above]
+{{< figure src="/img/tdm-app/tdm-journey-agg.jpg" alt="Aggregation journey" >}}
 
-
-
-
-
-[image of other journeys (login + aggregation)]
-
-Other journeys I worked on included the login & reigster and aggreation. Tandem's visual design language was evolving at the time and much of it was born out of the early work of designing these forms. We went through multiple iterations as the design language matured.
-
----
-Much of Tandem's design language and experience princples were born out of the early work of designing them. 
-
-To delight users and support their mental model of the app, interactions and transitions were crafted using Principle and HTML prototypes. In addition to designing and speccing motion, I also created a JS animation framework.
-
-Originations
-...
-
-Login & Register
-...
-
-Aggregation
-...
-
+Other journeys I worked on included aggregation (connecting other bank accounts), login & registration, core banking and payments. Much of the fundamentals of Tandem's design language and principles were born out of the early work of designing these forms and they were continually iterated as the design language matured.
 
 ---
 ### Onboarding
 
-One of the key challenges we had with the app was to 
+One of the key challenges we had with the app was to ensure users understood how it worked and what the benefits of using it would be.
+
+[snippets to show features of app]
 
 #### **__Conversational UI__**
 
@@ -93,6 +78,10 @@ Testing
 
 ---
 ### Website & Reach
+
+{{< figure src="/img/tdm-app/tdm-website-home.jpg" alt="Tandem website homepage" >}} 
+
+{{< figure src="/img/tdm-app/tdm-website-app.jpg" alt="Tandem website app landing" >}} 
 
 Website and
 

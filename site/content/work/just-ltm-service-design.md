@@ -1,5 +1,5 @@
 ---
-title: Just LTM Service Design
+title: JUST. Service Design
 date: 2017-02-05T15:04:10.000Z
 description: >-
   Uncovering opportunities for increased efficiency and improved user experience.

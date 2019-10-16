@@ -32,3 +32,13 @@ burger.onclick = function() {
   nav.classList.toggle('nav-active');
   nav.classList.toggle('burger-active');
 }
+
+// add block to video for safari bug
+let el = document.getElementById('video');
+ setTimeout(function () {
+  el.classList.add('block');
+  el.classList.remove('block');
+ }, 2000);
+
+
+

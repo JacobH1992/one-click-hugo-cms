@@ -12,16 +12,18 @@ workdate: 2016 - 2018
 ---
 ### About
 
-Tandem is a 'challenger' bank that combines traditional banking products such as credit cards and savings accounts with a modern banking app experience that helps customers save money and manage their spending. As a brand-new bank, everything part of the customer experience had to be designed from scratch.
+Tandem is a 'challenger' bank that combines traditional banking products such as credit cards and savings accounts with a modern banking app experience that helps customers save money and manage their spending. As a brand-new bank, every part of the customer experience had to be designed from scratch.
 
 {{< figure src="/img/tdm-app/app-overview.jpg" alt="Tandem App" >}}
 
-The app for launch gave users the opportunity to connect their existing bank accounts to the app (aggregation) as well as use their new Tandem banking products - this gives users a more holistic view of their finances and Tandem a way to offer new ways for them to save money.
+The app for launch gave users the opportunity to connect their existing bank accounts to the app (aggregation) as well as use their new Tandem banking products - this gave users a more holistic view of their finances and Tandem new ways to help customers save money.
 
 ---
 ### Target users
 
 Tandem was initially aimed at a millennial audience. In-depth research and consumer segmentation narrowed this down to a ‘Live for the moment’ segment becoming Tandem's intital target customer. As such, the app and product experiences were designed for this segment.
+
+{{< figure src="/img/tdm-app/persona.jpg" alt="Live for the moment persona" >}}
 
 The 'live for the moment' segment are characterised by some common traits:
 
@@ -29,11 +31,9 @@ The 'live for the moment' segment are characterised by some common traits:
 * __**Borrowing unwisely**__ to fund lifestyle, often hit with ‘unfair’ charges, could use help planning
 * __**Looking for something simpler**__, more engaging, more fun
 
-{{< figure src="/img/tdm-app/persona.jpg" alt="Live for the moment persona" >}}
+{{< figure src="/img/tdm-app/tdm-cofo.jpg" alt="Tandem App" >}}
 
 The app and products for launch were co-designed with members of this segment, sourced from Tandem's 20,000+ strong community of 'Co-Founders'. They became the banks early adopters and are still involved in helping shape propositions, products and features.
-
-{{< figure src="/img/tdm-app/tdm-cofo.jpg" alt="Tandem App" >}}
 
 ---
 ### Journeys & Interaction
@@ -51,7 +51,7 @@ Lots of personal information needed to be collected from the user during the app
 {{< figure src="/img/tdm-app/tdm-screens.jpg" alt="Form design screens" >}}
 
 Every part of the form design from structure to copywriting was considered, prototyped and iterated on heavily. Form features such as setting expectations up-front, progress indication, autofilling information, clarity of copy and validation were all added to give the user the best experience.
-<div><div class="video-wrapper"><video class="video" poster="https://thumbs.gfycat.com/MildFaroffEnglishpointer.jpg" autoplay="" muted="" loop="" title="">
+<div><div class="video-wrapper"><video autoplay="" muted="" loop="" title="">
 <source src="https://giant.gfycat.com/MildFaroffEnglishpointer.webm" type="video/webm">
 <source src="https://giant.gfycat.com/MildFaroffEnglishpointer.mp4" type="video/mp4">
 <img title="Sorry, your browser doesn't support HTML5 video." src="https://thumbs.gfycat.com/MildFaroffEnglishpointer.jpg">
@@ -64,33 +64,43 @@ To further stand out from traditional banks we added 'moments of delight' throug
 Other journeys I worked on included aggregation (connecting other bank accounts), login & registration, core banking and payments. Much of the fundamentals of Tandem's design language and principles were born out of the early work of designing these forms and they were continually iterated as the design language matured.
 
 ---
-### Onboarding
+### Onboarding & App intro
 
-One of the key challenges we had with the app was to ensure users understood how it worked and what the benefits of using it would be.
+I was part of the team responsible for onboarding. We characterised onboarding as everything from the moment Tandem first made a promise to the moment Tandem delivered on that promise.
 
-[snippets to show features of app]
+{{< figure src="/img/tdm-app/tdm-onboarding.jpg" alt="Tandem onboarding" >}}
 
-#### **__Conversational UI__**
+For example, for the first release of the app our website made the promise to show you how much money you can spend each month. We would have then delivered on that promise when you had successfully set up the 'spending money' feature in the app which showed you how much money you had left to spend for the rest of the month.
 
-Carousel -> Conversational UI + explanation
+{{< figure src="/img/tdm-app/tdm-onboarding-2.jpg" alt="Tandem onboarding" >}}
 
-Testing
+The 'spending money' feature required new users to sign up to use the Tandem app and also connect an existing bank account by providing their bank account details. We understood from mapping our onboarding journeys that this would be the biggest point of friction for a new user so it was imperitive users understood the potential value of connecting their bank accounts to avoid drop-outs and help us fulfil our promise and we decided the 'app intro' would be an effective way to do this.
+
+{{< figure src="/img/tdm-app/tdm-intro-carousel.jpg" alt="Tandem carousel intro concept" >}}
+
+We facilitated fortnightly testing sessions with segmented target users to refine our onboarding journey and specifically the app intro. We threw away multiple concepts and prototypes for our app intro such as an interactive carousel that guided the user through the main features slide by slide.
+
+{{< figure src="/img/tdm-app/tdm-intro-chat.jpg" alt="Conversational app intro" >}}
+
+Our testing showed that our target users were more inclined to read larger amounts of text and we could hold their attention longer when content was presented to them in a conversational, chat style interface. We eventually settled on a conversational chat interface that felt effortless for the more relaxed user but offered more support for those who were less convinced or concerned about security.
 
 ---
 ### Website & Reach
 
 {{< figure src="/img/tdm-app/tdm-website-home.jpg" alt="Tandem website homepage" >}} 
 
-{{< figure src="/img/tdm-app/tdm-website-app.jpg" alt="Tandem website app landing" >}} 
+<!-- {{< figure src="/img/tdm-app/tdm-website-app.jpg" alt="Tandem website app landing" >}}   -->
 
 Website and
 
 Appstore images
 
+[snippets to show features of app]
+
 ---
 ### Design System
 
-We wanted to design beautiful interfaces that could be quickly iterated whilst at the same time being at least be AA accessible. Our answer was to make use of Atomic Design principles.
+We wanted to design beautiful interfaces that could be quickly iterated whilst at the same time being at least be AA accessible. Our answer was to make use of Atomic Design principles and 'components' as part of our design system.
 
 {{< figure src="/img/tdm-app/tdm-components2.jpg" alt="A text input component" >}}
 

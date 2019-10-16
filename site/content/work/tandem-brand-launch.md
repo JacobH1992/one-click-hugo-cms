@@ -51,7 +51,7 @@ Eager to show off our new brand, we decided to design and build a responsive tea
 
 One of the first ideas we had for the brand was to use the conjunction of 'AND', present in the word 'TANDEM', to further reinforce the message of people coming together.
 
-<div class="video-wrapper"><video class="video" poster="https://thumbs.gfycat.com/OldCharmingEider-poster.jpg" autoplay="" muted="" loop="" title="">
+<div class="video-wrapper"><video class="video" autoplay="" muted="" loop="" title="">
 <source src="https://fat.gfycat.com/ThickOffensiveAltiplanochinchillamouse.webm" type="video/webm">
 <source src="https://giant.gfycat.com/ThickOffensiveAltiplanochinchillamouse.mp4" type="video/mp4">
 <img title="Sorry, your browser doesn't support HTML5 video." src="https://thumbs.gfycat.com/ThickOffensiveAltiplanochinchillamouse.jpg">

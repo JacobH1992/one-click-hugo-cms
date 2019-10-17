@@ -9,6 +9,7 @@ roles: |
 
   Font-end developer
 workdate: 2016 - 2018
+credits: As the first member of the Tandem Design team I was heavily involved in all aspects of the work described here. However, it's important to note the big collaborative effort of John Alderson, Christoph Backoefer, Rebecca Reynolds, Bernardo Presser, Umberto Abate, Barbara Somlai, Will Rose, Robert Whitfield, Jamie Hill, Christian Giordano, Agnieszka Grabowicz, Miguel Oliva Márquez and George Phylaktis.
 ---
 ### About
 
@@ -87,15 +88,21 @@ Our testing showed that our target users were more inclined to read larger amoun
 ---
 ### Website & Reach
 
-{{< figure src="/img/tdm-app/tdm-website-home.jpg" alt="Tandem website homepage" >}} 
+Whilst I was at Tandem I was involved in designing multiple versions of the website. The most important iteration of the website was the website used for the first release and launch of the app. The website needed to clearly explain Tandem's proposition and convince users to download the app. It also needed to show that Tandem was different to the other, more traditional banks.
 
-<!-- {{< figure src="/img/tdm-app/tdm-website-app.jpg" alt="Tandem website app landing" >}}   -->
+{{< figure src="/img/tdm-app/tdm-website-home.jpg" alt="Tandem website homepage" >}}
 
-Website and
+<!-- I designed animated feature 'snippets' to help illustrate how some features of the app worked. They were designed to capure the essence of the each feature and were used on the website and within the app intro. Each snippet was paired with lifestyle focussed photos and succint copy also created by me.
 
-Appstore images
+[snippets to show features of app] -->
 
-[snippets to show features of app]
+The website evolved over time and it was important to express the brand coherently across all marketing channels such as ads, app stores and the website as well as within the app. We tested all areas of the website and the app with multiple methods to ensure we knew how it was percieved.
+
+{{< figure src="/img/tdm-app/tdm-appstore.jpg" alt="Tandem app store images" >}}
+
+I also designed a waitlist feature to create some buzz around the first release of the app and set expectations about timings and access. It was also useful in helping measure and control the usage of the first users.
+
+{{< figure src="/img/tdm-app/tdm-waitlist.jpg" alt="Tandem app store images" >}}
 
 ---
 ### Design System
@@ -116,8 +123,15 @@ I was part of the team that created the design system from scratch. I was respon
 ---
 ### Prototyping
 
-interaction prototypes
+Prototyping was an important part of our design process at Tandem. I created many prototypes from small animations to full interactive journeys. I also helped prototype guidelines and components of the design system using HTML, CSS and JS.
+<div><div class="video-wrapper"><video autoplay="" muted="" loop="" title="">
+<source src="https://giant.gfycat.com/ColorlessSpeedyAnhinga.webm" type="video/webm">
+<source src="https://giant.gfycat.com/ColorlessSpeedyAnhinga.mp4" type="video/mp4">
+<img title="Sorry, your browser doesn't support HTML5 video." src="https://thumbs.gfycat.com/ColorlessSpeedyAnhinga.jpg">
+</video></div></div>
 
-html prototypes (form grid etc.)
+These prototypes allowed the team to test our rules and guidelines as well as rapidly build interfaces such as forms that we could put in the hands of real users. They also helped when working with engineers as we could already speak a common language when it came to any rules of implementation.
 
-investor demo
+
+
+Possibly the largest prototype I worked on was an investor demo app. Working together with Christoph (another designer on the team) we designed and built a realistic app prototype the 

@@ -132,6 +132,6 @@ Prototyping was an important part of our design process at Tandem. I created man
 
 These prototypes allowed the team to test our rules and guidelines as well as rapidly build interfaces such as forms that we could put in the hands of real users. They also helped when working with engineers as we could already speak a common language when it came to any rules of implementation.
 
+{{< figure src="/img/tdm-app/tdm-investor-demo.jpg" alt="Investor demo app" >}}
 
-
-Possibly the largest prototype I worked on was an investor demo app. Working together with Christoph (another designer on the team) we designed and built a realistic app prototype the 
+Possibly the largest prototype I worked on was an investor demo app. Working together with Christoph (another designer on the team) we designed and built a realistic app prototype used for investor demos. We rapidly sketched, iterated and built the prototype in 2 weeks. It helped Tandem attract tens of millions of £s by sharing a realistic view of the ambitions and future of the Tandem product offering. It also gave us a platform for testing new app features.

@@ -8,7 +8,6 @@ roles: |
   Lead Product Designer
 workdate: 2019
 ---
-
 #### <div style="background: white; padding: 16px; color: black; display: inline-block;">Work in progress...</div>
 
 ---

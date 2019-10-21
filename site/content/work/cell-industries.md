@@ -9,7 +9,6 @@ roles: |
   Front-End Developer
 workdate: 2014
 ---
+#### <div style="background: white; padding: 16px; color: black; display: inline-block;">Coming soon...</div>
 
 http://cell-industries.co.uk
-
-Coming soon...

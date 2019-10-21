@@ -8,7 +8,37 @@ roles: |
   Lead Product Designer
 workdate: 2019
 ---
+#### <div style="background: white; padding: 16px; color: black; display: inline-block;">Work in progress...</div>
 
-Coming soon...
+### Background
 
-(Case study available)
+{{< figure src="/img/just-checker/checker-schematic.jpg" alt="Retirement checker in use" >}}
+
+---
+### Co-creation
+
+{{< figure src="/img/just-checker/checker-mockup.jpg" alt="Retirement checker in use" >}}
+
+{{< figure src="/img/just-checker/checker-consumers.jpg" alt="Retirement checker in use" >}}
+
+{{< figure src="/img/just-checker/checker-paper.jpg" alt="Retirement checker in use" >}}
+
+{{< figure src="/img/just-checker/checker-prototype-mockup.jpg" alt="Retirement checker in use" >}}
+
+---
+### Features
+
+
+
+{{< figure src="/img/just-checker/checker-landing.jpg" alt="Retirement checker in use" >}}
+
+
+---
+### Save & Return
+
+{{< figure src="/img/just-checker/checker-save-flow.jpg" alt="Checker journey with save and return" >}}
+
+To allow users to return to their results.
+It also allowed us to create a profile for the user that we could use to follow up, pre-fill profile information etc.
+
+

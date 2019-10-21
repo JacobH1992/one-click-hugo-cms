@@ -7,6 +7,7 @@ roles: |
   UX & UI Designer
 workdate: 2015
 ---
+#### <div style="background: white; padding: 16px; color: black; display: inline-block;">Work in progress...</div>
 
 ### About
 
@@ -15,9 +16,3 @@ I spent 7 months on-site with Dixons Carphone as part of the team designing thei
 The app was designed for tablet and to be used in-store with a sales assistant.
 
 <p><iframe class="youtube" src="https://www.youtube-nocookie.com/embed/Jmbm2jMY2S8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-
-https://www.youtube.com/watch?v=Jmbm2jMY2S8
-
-https://www.youtube.com/watch?v=SheV6FKO6gM
-
-Comming soon...

@@ -172,3 +172,17 @@
     height: 440px; 
   }
 }
+
+.wip {
+  padding: 4px 8px;
+  display: inline-block;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: $white;
+  color: $red-mid;
+  font-weight: $font-weight-bold;
+  font-size: 14px;
+  border-radius: 4px;
+  z-index: 3;
+}

@@ -7,6 +7,7 @@ image: /img/cover/just-retirement-checker.jpg
 roles: |
   Lead Product Designer
 workdate: 2019
+wip: Work in progress
 ---
 #### <div style="background: white; padding: 16px; color: black; display: inline-block;">Work in progress...</div>
 

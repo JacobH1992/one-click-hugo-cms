@@ -7,5 +7,6 @@ image: /img/cover/turn-out-app.png
 roles: |
   Design Lead
 workdate: 2017
+wip: Work in progress
 ---
 #### <div style="background: white; padding: 16px; color: black; display: inline-block;">Work in progress...</div>

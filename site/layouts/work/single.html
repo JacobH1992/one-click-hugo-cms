@@ -43,9 +43,10 @@
       {{ with .NextInSection }}
       <p class="title-4 text-secondary">Previous project</p>
         <div class="work-card">
-          <a href="{{ .Permalink }}">
-            <div class="work-card-image work-card-image-nav" style="background-image: url('{{.Params.image}}');"></div>
-            <div class="work-card-text">{{ .Title }}</div>
+					<a href="{{ .Permalink }}">
+              {{ if isset .Params "wip" }}<div class="wip">{{.Params.wip}}</div>{{ end }}
+              <div class="work-card-image" style="background-image: url('{{.Params.image}}');"></div>
+              <h3 class="work-card-text">{{ .Title }}</h3>
           </a>
         </div>
       {{ end }}
@@ -55,9 +56,10 @@
       {{ with .PrevInSection }}
       <p class="title-4 text-secondary">Next project</p>
         <div class="work-card work-card-previous">
-          <a href="{{ .Permalink }}">
-            <div class="work-card-image work-card-image-nav" style="background-image: url('{{.Params.image}}');"></div>
-            <div class="work-card-text">{{ .Title }}</div>
+					<a href="{{ .Permalink }}">
+              {{ if isset .Params "wip" }}<div class="wip">{{.Params.wip}}</div>{{ end }}
+              <div class="work-card-image" style="background-image: url('{{.Params.image}}');"></div>
+              <h3 class="work-card-text">{{ .Title }}</h3>
           </a>
         </div>
       {{ end }}

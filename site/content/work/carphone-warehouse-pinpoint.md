@@ -6,6 +6,7 @@ image: /img/cover/carphone-pinpoint.jpg
 roles: |
   UX & UI Designer
 workdate: 2015
+wip: Work in progress
 ---
 #### <div style="background: white; padding: 16px; color: black; display: inline-block;">Work in progress...</div>
 

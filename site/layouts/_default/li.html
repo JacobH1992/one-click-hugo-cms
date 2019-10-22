@@ -1,8 +1,9 @@
 <div class="col-md-6">
 	<div class="work-card">
 		<a href="{{ .Permalink }}">
+			{{ if isset .Params "wip" }}<div class="wip">{{.Params.wip}}</div>{{ end }}
 			<div class="work-card-image" style="background-image: url('{{.Params.image}}');"></div>
-			<div class="work-card-text">{{ .Title }}</div>
+			<h3 class="work-card-text">{{ .Title }}</h3>
 		</a>
 	</div>
 </div>

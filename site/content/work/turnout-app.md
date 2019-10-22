@@ -8,4 +8,4 @@ roles: |
   Design Lead
 workdate: 2017
 ---
-#### <div style="background: white; padding: 16px; color: black; display: inline-block;">Coming soon...</div>
+#### <div style="background: white; padding: 16px; color: black; display: inline-block;">Work in progress...</div>

@@ -75,7 +75,7 @@ The final part of the journey is to confirm the switch. The user must agree to t
 
 A simple landing page was built to help market the app and it was advertised on facebook and twitter.
 
-<div class="video-wrapper"><video class="video" poster="https://thumbs.gfycat.com/RipeOrdinaryBlackfly.webp" autoplay="" muted="" loop="" title="">
+<div class="video-wrapper"><video class="video" autoplay="" muted="" loop="" title="">
 <source src="https://giant.gfycat.com/RipeOrdinaryBlackfly.webm" type="video/webm">
 <img title="Sorry, your browser doesn't support HTML5 video." src="https://thumbs.gfycat.com/ThickOffensiveAltiplanochinchillamouse.jpg">
 </video></div>

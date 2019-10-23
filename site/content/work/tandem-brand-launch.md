@@ -25,8 +25,6 @@ Anyone could become a Co-Founder and each one got a share in the bank and their 
 ---
 ### Stronger together
 
-<!-- {{< figure src="/img/tdm-brand/tdm-teaser-workshops.jpg" alt="Brand workshop" >}} -->
-
 For the next six months, we set about defining the brand for the new bank. I was involved in and helped facilitate numerous workshops, Co-Founder events and testing sessions with {{% a_blank "Wolff Olins" "http://www.wolffolins.com/" %}} and other Tandem employees. We explored multiple names and directions before finding 'Tandem'.
 
 {{< figure src="/img/tdm-brand/tdm-teaser-logo.jpg" alt="Tandem Logo" >}}
